@@ -1,0 +1,2 @@
+\contentsline {section}{\blx@tocontentsinit {0}\citeauthor {Mahrt1987} \blx@tocontentsinit {0}\citeyear {Mahrt1987}}{2}{section*.2}%
+\contentsline {section}{\blx@tocontentsinit {0}\citeauthor {Ohata1989} \blx@tocontentsinit {0}\citeyear {Ohata1989}}{4}{section*.6}%

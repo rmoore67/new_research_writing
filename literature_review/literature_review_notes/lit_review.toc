@@ -1,0 +1,6 @@
+\contentsline {section}{\blx@tocontentsinit {0}\citeauthor {Goosse2018} \blx@tocontentsinit {0}\citeyear {Goosse2018}}{2}{section*.2}%
+\contentsline {section}{\blx@tocontentsinit {0}\citeauthor {naakka2019} \blx@tocontentsinit {0}\citeyear {naakka2019}}{4}{section*.7}%
+\contentsline {section}{\blx@tocontentsinit {0}\citeauthor {Hartmann2016} \blx@tocontentsinit {0}\citeyear {Hartmann2016}}{7}{section*.11}%
+\contentsline {section}{\blx@tocontentsinit {0}\citeauthor {Ali2020} \blx@tocontentsinit {0}\citeyear {Ali2020}}{8}{section*.17}%
+\contentsline {section}{\blx@tocontentsinit {0}\citeauthor {Pithan2014} \blx@tocontentsinit {0}\citeyear {Pithan2014}}{9}{section*.21}%
+\contentsline {section}{\blx@tocontentsinit {0}\citeauthor {Hartmann2016} \blx@tocontentsinit {0}\citeyear {Hartmann2016}}{10}{section*.25}%

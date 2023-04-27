@@ -1,0 +1,38 @@
+\babel@toc {english}{}\relax 
+\contentsline {subsection}{\numberline {0.1}Goal of the introduction}{1}{subsection.0.1}%
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}The Arctic within the global climate system}{1}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Characterising change}{1}{subsubsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.2}Polar amplification}{2}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Clausius-Clapeyron relation}{2}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Polar amplification in the Arctic}{3}{subsubsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.3}Humidity}{3}{subsection.1.3}%
+\contentsline {subsubsection}{\numberline {1.3.1}Relative humidity}{3}{subsubsection.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.2}Relative humidity}{3}{subsubsection.1.3.2}%
+\contentsline {subsubsection}{\numberline {1.3.3}Specific humidity}{3}{subsubsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.4}Hydrological cycle}{3}{subsection.1.4}%
+\contentsline {subsubsection}{\numberline {1.4.1}Atmosphere}{6}{subsubsection.1.4.1}%
+\contentsline {paragraph}{\numberline {1.4.1.1}Atmospheric Moisture}{6}{paragraph.1.4.1.1}%
+\contentsline {paragraph}{\numberline {1.4.1.2}Evaporation and moisture transport from lower latitudes}{7}{paragraph.1.4.1.2}%
+\contentsline {paragraph}{\numberline {1.4.1.3}Cloud cover}{7}{paragraph.1.4.1.3}%
+\contentsline {paragraph}{\numberline {1.4.1.4}Precipitation}{7}{paragraph.1.4.1.4}%
+\contentsline {subsubsection}{\numberline {1.4.2}Cryosphere}{8}{subsubsection.1.4.2}%
+\contentsline {paragraph}{\numberline {1.4.2.1}Sea ice}{8}{paragraph.1.4.2.1}%
+\contentsline {paragraph}{\numberline {1.4.2.2}Snow cover}{8}{paragraph.1.4.2.2}%
+\contentsline {paragraph}{\numberline {1.4.2.3}Glaciers and Ice Sheets}{8}{paragraph.1.4.2.3}%
+\contentsline {paragraph}{\numberline {1.4.2.4}Permafrost}{8}{paragraph.1.4.2.4}%
+\contentsline {paragraph}{\numberline {1.4.2.5}River and lake ice}{9}{paragraph.1.4.2.5}%
+\contentsline {subsubsection}{\numberline {1.4.3}Other components}{10}{subsubsection.1.4.3}%
+\contentsline {paragraph}{\numberline {1.4.3.1}Freshwater discharge}{10}{paragraph.1.4.3.1}%
+\contentsline {paragraph}{\numberline {1.4.3.2}Sea level rise and coastal stability}{10}{paragraph.1.4.3.2}%
+\contentsline {paragraph}{\numberline {1.4.3.3} Terrestrial vegetation zones and biodiversity}{10}{paragraph.1.4.3.3}%
+\contentsline {paragraph}{\numberline {1.4.3.4}Freshwater ecosystems}{10}{paragraph.1.4.3.4}%
+\contentsline {subsection}{\numberline {1.5}Why the WCA is different / can be different}{10}{subsection.1.5}%
+\contentsline {subsubsection}{\numberline {1.5.1}Why this is important to people}{10}{subsubsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.6}Sum up the question I am looking at - ?? reword this better}{10}{subsection.1.6}%
+\contentsline {section}{\numberline {2}Methods}{10}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Validation of atmospheric reanalyses over the Western Canadian Arctic}{10}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Historical measurements}{10}{subsubsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.2}Reanalysis methods}{12}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Reanalysis validation}{12}{subsubsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.3}Hysplit}{17}{subsection.2.3}%

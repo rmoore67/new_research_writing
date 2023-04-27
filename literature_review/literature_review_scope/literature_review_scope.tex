@@ -1,0 +1,152 @@
+\documentclass[11pt, oneside]{article}   
+\usepackage{geometry}              	
+\usepackage{adjustbox}
+\usepackage{pdfpages}  	
+\usepackage[nottoc]{tocbibind}
+\usepackage{graphicx}
+\usepackage{caption}						
+\usepackage{amssymb}
+\usepackage{booktabs} % To thicken table lines
+\usepackage{amsmath}
+\usepackage{pdfpages} 
+\usepackage{longtable}
+\usepackage{subfig}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[font=small,labelfont=bf]{caption}
+
+\title{EOSC 595: Directed study, Arctic Climate change - Literature Review Scope and Plan  }
+\nonstopmode
+%\usepackage[utf-8]{inputenc}
+\usepackage{graphicx} % Required for including pictures
+\usepackage[figurename=Figure]{caption}
+\usepackage{float}    % For tables and other floats
+\usepackage{verbatim} % For comments and other
+\usepackage{amsmath}  % For math
+\usepackage{amssymb}  % For more math
+\usepackage{fullpage} % Set margins and place page numbers at bottom center
+\usepackage{paralist} % paragraph spacing
+\usepackage{listings} % For source code
+\usepackage{subfig}   % For subfigures
+%\usepackage{physics}  % for simplified dv, and 
+\usepackage{enumitem} % useful for itemization
+\usepackage{siunitx}  % standardization of si units
+% \usepackage{amsmath}
+\usepackage{mathtools}% Loads amsmath
+
+\usepackage{tikz,bm} % Useful for drawing plots
+%\usepackage{tikz-3dplot}
+
+\usepackage{enumitem}
+%\renewcommand{\theenumi}{\Alph{enumi}}
+
+
+\usepackage{csquotes}
+
+
+
+%\renewcommand{\labelenumii}{\Arabic{enumii}}
+
+
+\begin{document}
+
+\begin{center}
+	\hrule
+	\vspace{.4cm}
+	{\textbf { \large EOSC 595: Directed study, Arctic Climate change \\ Literature Review Scope and Plan}}
+\end{center}
+{\textbf{Name:}\ Ruth Moore \hspace{\fill} }\textbf{Date:} February 28th 2022   \\
+	\hrule
+
+
+\hfill
+\hfill
+ \hfill
+\hfill
+
+\section{Short summary}
+I have decided to write two short literature review for this class, based on papers which I have been reading since I started my MSc in September of 2021. These will  have a particul focus on the comparasions of reanalysis measurements and observations for the Arctic region, and the overall changes to the Arctic hydrological cycle due to amplification. 
+
+
+\subsection{A review on the usage of ERA5 reanalysis in the Arctic region}
+The first review will follow a systematic organization and comparasion of papers which use ERA5 reanalysis (and perhaps other reanalyses if deemed appropraite) in the Arcitc region, with a particular focus to how they use precipitation data. This work will review how different research has used, formulated and evaluated the effectiveness of ERA5 in the Arctic region. A number of papers have been written comparing station and sattelite observations to ERA5 with no review paper being written consolidating all of this work. The lack of such a review paper makes it difficult when working with ERA5 data products to know which are the best methods and metholody to use, especially when correcting for precipitation. This review will be useful to me as I write my MSc thesis introduction on ERA5 evaluation and will be useful to the Arctic research community that uses ERA5 output for both comparing with observations and as a data source in itself. I predict that this review will be short, reflecting the limited research comparing ERA5 to observations in this region to date.
+
+
+\subsubsection{An updated review on Arctic Amplification and it's implications on the hydrological cycle}
+In recent years many papers have been written on the state of knowledge of Arctic Amplification \cite{davy2018arctic, previdi2021arctic, vihma2016atmospheric, serreze2011processes} as well as the changing hydrological cycle. As we better understand concepts such as cloud microphysics \cite{pithan2014mixed} and water vapour transport \cite{gimeno2019atmospheric}, our understanding of the changing weather of the region too changes. Recent updates such as the Arctic Report Card 2022 \cite{druckenmiller2022arctic} give updated changes to the region, which influence our overall understanding. Updated and recent advances in how we understand the changing hydrological cycle are relevant for me as a student studying this system, as well as the community as a whole. 
+
+
+\section{Background and plans for review }
+\subsection{A review on the usage of ERA5 reanalysis in the Arctic region}
+
+{\color{blue}{Note that this review will mainly compare and constrast papers which were read in the earlier days of the Polar Climate meeting group (Sping and Summer of 2022) }}
+
+%WHY IS ERA5 good?
+Reanalysis data sets combine weather measurements from the past with up to date climate models to form a complete picture of weather patterns in the past. They are particularly useful for work in the Arctic since direct measurements are often limited due to temporal and spatial difficulties associated with remote regoins. ERA-5 is chosen for this study since it has data availability from 1979 to present day, with the highest correlation coefficients compared with experimental weather data, small biases and root mean square errors, compared with other reanalysis datasets \cite{graham2019improved, hillebrand2021comparison}. 
+
+However, reanalysis products are not prefect and come with distinct limitations, particulary in the Arctic where assimliation is low due to limitations in observational records. Some of these limiations include a warm bias over sea ice when compared to buoy measurments \cite{wang2019comparison} and the presence of trace precipitation \cite{boisvert2018intercomparison}. 
+
+
+ERA5 is often used as a data product when comparing CMIP and other model outputs to 'observations', such as in \cite{ford2022arctic} where CMIP and ERA5 are compared to evaluate hydrological changes due to sea ice loss and in \cite{rantanen2022arctic} where the Arctic is seen to have warmed 4 times more than the global average. However studies show that ERA5 overesitmates both precipitation amount and frequency in the Arctic region (my work) {\color{blue} develop this point with more references} , and therefore should not blindly be used as a dataproduct without thorough evaluation of its limitations. 
+
+Understanding of these limitations, particulary with precipitation is crucial for work in the Arctic and for global climate evaluation as a whole. To quote Boisvert in \cite{boisvert2018intercomparison};
+
+"...Arctic-wide precipitation is difficult to capture and reproduce accurately. Thus, precipitation in the Arctic is one of the variables with the largest uncertainty in seasonal forecasting and global climate model projections and should be used with great caution"
+
+\subsubsection{Specific variables}
+For specific variables ERA5 is seen to perform well (such as rain on snow events in \cite{dou2021trends}). A more thorough analysis of which variables ERA5 characterises well will be completed for this study.
+
+A large section of this review paper will focus on precipitation, since precipitation is one of the most rapidly changing variabels in the Arctic as we see a transition from snow to rain, and it is one of the most limited and difficult to use reanalysis products (as explained above).
+
+\subsubsection{Regions}
+Some studies have looked at specific regions, comparing how well ERA5 performs with extreme events \cite{loeb2022extreme} in Western Canada and Greenland. This review will compare specific regions where ERA5 has been evaluated.
+
+\newpage
+\pagebreak
+
+\subsection{An updated review on Arctic Amplification and it's implications on the hydrological cycle}
+
+{\color{blue}{Note that this structure is taken from my committee meeting document - Oct 2022 }}
+
+Polar amplification is the phenomenon in which any change in net radiation balance on Earth produces larger temperature changes in the poles than on the rest of the planet. The changes in the Arctic occur more severely and intensely, in a process known as Arctic amplification \cite{england2021recent}.
+
+\subsubsection{Characterizing change}
+Arctic climate change is mainly characterized by a warmer and wetter atmosphere. This is due to the overall global increase in temperature, in addition to poleward energy transport, snow and ice albedo feedbacks, loss of sea ice and snow, the confining of warming to the near-surface in the polar atmosphere, moisture transport and water-vapour radiative feedback which all contribute to amplification \cite{serreze2011processes}. These are combined effects which differ between the hemispheres.
+
+\subsubsection{Sea Ice}
+Previous work investigating Arctic amplification focused on sea ice losses \cite{serreze2009emergence}. With warming temperatures, ice has less time to form which makes it thinner and causes it to melt earlier. This allows for stronger heat transfer from the ocean to the atmosphere. There has been a considerable loss in sea ice extent since 1979, with a yearly decrease in sea ice expected to continue with the increase in CO2 in the atmosphere \cite{dai2019arctic}. 
+
+Some work has shown that in aquaplanet models, with no sea ice, Arctic amplification still occurs \cite{russotto2020polar}, showing that while sea ice loss is an important mechanism, other factors are just as important to research when investigating what is contributing to amplification. 
+
+\subsubsection{Moisture transport}
+The amount of moisture in the Arctic is determined by the rates of local evaporation and moisture transport from lower latitudes. Due to a large amount of evaporation from leads and polynyas, the near-surface air humidity over Arctic sea ice is generally close to saturation concerning the ice phase and therefore sublimation is weak \cite{andreas2002near}. Leads are large fractures within an expanse of sea ice, where a linear area of open water is present, and often used for transport. They can vary in width from meters to hundreds of meters. Polynyas are areas of open water surrounded by sea ice.
+
+Other sources of atmospheric moisture in the Arctic are transported from lower latitudes, driven by the north-south gradient in air-specific humidity and are affected by large-scale circulation patterns such as planetary waves, subtropical jet stream, the Polar front jet stream and storm tracks \cite{gimeno2019atmospheric}. These phenomena are split up into mean meridional circulation, stationary eddies and transient eddies. 
+
+There has been an overall increase in atmospheric and ocean heat transport to the poles due to changes in the transport of latent energy (moisture) and dry static energy (the sum of sensible and potential energy) by atmospheric circulations \cite{mcgraw2020changes}. Particularly there are large increases seen over the Atlantic sector of the Arctic \cite{dufour2016atmospheric}, with little analysis of moisture transport over the Western Canadian Arctic. 
+
+\subsubsection{Temperature, humidity and precipitation} 
+The increase in Arctic annual mean surface temperature (land and ocean) between 1971 and 2019 was three times higher than the increase in the global average during the same period \cite{AMAP}. Newer studies estimate that this change is 4 times the amount \cite{rantanen2022arctic}. These temperature increases are driving ice losses and changes in moisture transport.
+
+In recent years the effects of changing humidity have been explored, with the cause for overall warming being attributed to increases in humidity and precipitation \cite{mccrystall2021new} as well as sea ice losses. Humidity changes can occur both due to sea ice losses and the transport of moisture from other regions. 
+
+Moist energy balance models and general circulation models show 1.8 times more warming than dry models, due to the warming effect of latent heat transport \cite{feldl2021polar}, showing that humidity is an important factor when characterizing amplification.
+
+Changes are being seen in how these sources of precipitation are changing both over time and between regions, with end-of-century humidity recycling projected to account for 60-64\% of precipitation \cite{ford2022arctic}.
+
+\subsubsection{Regions of the Arctic }
+The changes in sea ice extent and thickness, transport of moisture and heat, humidity and precipitation all rely heavily on local geography and weather, therefore this will be considered when writing the review.
+
+
+
+
+
+ \bibliography{mybib}{}
+\bibliographystyle{apalike}
+
+\end{document}
+
+
