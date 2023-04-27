@@ -1,0 +1,98 @@
+\begin{thebibliography}{}
+
+\bibitem[AMAP, 2021]{amap}
+AMAP (2021).
+\newblock Arctic climate change update 2021: Key trends and impacts. summary
+  for policy-makers.
+\newblock {\em AMAP, Arctic Monitoring and Assessment Programme (AMAP),
+  Tromsø, Norway}.
+
+\bibitem[Chakravarty and Kumar, 2019]{CHAKRAVARTY2019203}
+Chakravarty, P. and Kumar, M. (2019).
+\newblock Chapter 6 - floral species in pollution remediation and augmentation
+  of micrometeorological conditions and microclimate: An integrated approach.
+\newblock In Pandey, V.~C. and Bauddh, K., editors, {\em Phytomanagement of
+  Polluted Sites}, pages 203--219. Elsevier.
+
+\bibitem[{Government of Canada }, 2021]{station_list}
+{Government of Canada } (2021).
+\newblock Meteorological station catalogue - station list.
+\newblock
+  \url{https://open.canada.ca/data/en/dataset/9764d6c6-3044-450c-ac5a-383cedbfef17}.
+\newblock Accessed: 2021-09-01.
+
+\bibitem[Graham et~al., 2019]{era5}
+Graham, R.~M., Hudson, S.~R., and Maturilli, M. (2019).
+\newblock Improved performance of era5 in arctic gateway relative to four
+  global atmospheric reanalyses.
+\newblock {\em Geophysical Research Letters}, 46(11):6138--6147.
+
+\bibitem[Haine et~al., 2015]{haine2015arctic}
+Haine, T.~W., Curry, B., Gerdes, R., Hansen, E., Karcher, M., Lee, C., Rudels,
+  B., Spreen, G., de~Steur, L., Stewart, K.~D., et~al. (2015).
+\newblock Arctic freshwater export: Status, mechanisms, and prospects.
+\newblock {\em Global and Planetary Change}, 125:13--35.
+
+\bibitem[Held and Soden, 2006]{held2006robust}
+Held, I.~M. and Soden, B.~J. (2006).
+\newblock Robust responses of the hydrological cycle to global warming.
+\newblock {\em Journal of climate}, 19(21):5686--5699.
+
+\bibitem[Hillebrand et~al., 2021]{era5veari}
+Hillebrand, Bremer, and Arigony-Neto (2021).
+\newblock Comparison between atmospheric reanalysis models era5 and era-interim
+  at the north antarctic peninsula region.
+\newblock {\em Annals of the American Association of Geographers},
+  111(4):1147--1159.
+
+\bibitem[Hjort and Karjalainen, 2018]{Hjort2018}
+Hjort, J. and Karjalainen (2018).
+\newblock Degrading permafrost puts arctic infrastructure at risk by
+  mid-century.
+\newblock {\em Nature Communications}, 9(1):5147.
+
+\bibitem[Meredith, 2019]{ipcc}
+Meredith, Sommerkorn, C. (2019).
+\newblock Polar regions. in: Ipcc special report on the ocean and cryosphere in
+  a changing climate.
+\newblock {\em IPCC}.
+
+\bibitem[Oshima and Yamazaki, 2017]{oshima2017atmospheric}
+Oshima, K. and Yamazaki, K. (2017).
+\newblock Atmospheric hydrological cycles in the arctic and antarctic during
+  the past four decades.
+\newblock {\em Czech Polar Reports}, 7(2):169--180.
+
+\bibitem[Rekacewicz, 1998]{perm_map}
+Rekacewicz, P. (1998).
+\newblock Unep/grid-arendal; data from international permafrost association.
+\newblock {\em Circumpolar Active-Layer Permafrost System (CAPS), version 1.0.}
+
+\bibitem[Rinke et~al., 2019]{rinke2019trends}
+Rinke, A., Segger, B., Crewell, S., Maturilli, M., Naakka, T., Nyg{\aa}rd, T.,
+  Vihma, T., Alshawaf, F., Dick, G., Wickert, J., et~al. (2019).
+\newblock Trends of vertically integrated water vapor over the arctic during
+  1979--2016: Consistent moistening all over?
+\newblock {\em Journal of Climate}, 32(18):6097--6116.
+
+\bibitem[Serreze et~al., 2006]{serreze2006large}
+Serreze, M.~C., Barrett, A.~P., Slater, A.~G., Woodgate, R.~A., Aagaard, K.,
+  Lammers, R.~B., Steele, M., Moritz, R., Meredith, M., and Lee, C.~M. (2006).
+\newblock The large-scale freshwater cycle of the arctic.
+\newblock {\em Journal of Geophysical Research: Oceans}, 111(C11).
+
+\bibitem[Skliris et~al., 2016]{Skliris2016}
+Skliris, N., Zika, J.~D., Nurser, G., Josey, S.~A., and Marsh, R. (2016).
+\newblock Global water cycle amplifying at less than the clausius-clapeyron
+  rate.
+\newblock {\em Scientific Reports}, 6(1):38752.
+
+\bibitem[Vihma et~al., 2016]{vihma2016atmospheric}
+Vihma, T., Screen, J., Tjernstr{\"o}m, M., Newton, B., Zhang, X., Popova, V.,
+  Deser, C., Holland, M., and Prowse, T. (2016).
+\newblock The atmospheric role in the arctic water cycle: A review on
+  processes, past and future changes, and their impacts.
+\newblock {\em Journal of Geophysical Research: Biogeosciences},
+  121(3):586--620.
+
+\end{thebibliography}

@@ -1,0 +1,479 @@
+\documentclass[11pt, oneside]{article}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=15mm,
+ top=15mm,
+ }           
+\usepackage{graphicx}
+\usepackage{adjustbox}
+\usepackage{pdfpages}  	
+\usepackage[nottoc]{tocbibind}
+\usepackage{graphicx}
+\usepackage{caption}						
+\usepackage{amssymb}
+\usepackage{booktabs} % To thicken table lines
+\usepackage{amsmath}
+\usepackage{pdfpages} 
+\usepackage{longtable}
+\usepackage{subfig}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[font=small,labelfont=bf]{caption}
+
+\title{EOSC510 Assignment }
+\nonstopmode
+%\usepackage[utf-8]{inputenc}
+\usepackage{graphicx} % Required for including pictures
+\usepackage[figurename=Figure]{caption}
+\usepackage{float}    % For tables and other floats
+\usepackage{verbatim} % For comments and other
+\usepackage{amsmath}  % For math
+\usepackage{amssymb}  % For more math
+\usepackage{fullpage} % Set margins and place page numbers at bottom center
+\usepackage{paralist} % paragraph spacing
+\usepackage{listings} % For source code
+\usepackage{subfig}   % For subfigures
+%\usepackage{physics}  % for simplified dv, and 
+\usepackage{enumitem} % useful for itemization
+\usepackage{siunitx}  % standardization of si units
+% \usepackage{amsmath}
+\usepackage{mathtools}% Loads amsmath
+
+\usepackage{tikz,bm} % Useful for drawing plots
+%\usepackage{tikz-3dplot}
+
+\usepackage{enumitem}
+%\renewcommand{\theenumi}{\Alph{enumi}}
+
+
+\usepackage{csquotes}
+
+
+
+%\renewcommand{\labelenumii}{\Arabic{enumii}}
+
+
+\begin{document}
+
+\begin{center}
+	\hrule
+	\vspace{.4cm}
+	{\textbf { \large EOSC510 - final paper \\ An investigation into monthly temperature
+and precipitation patterns in the Arctic, 1959-2021}}
+\end{center}
+{\textbf{Name:}\ Ruth Moore \hspace{\fill} }\textbf{Due Date:} 16th December 2022   \\
+	\hrule
+
+
+\hfill
+\hfill
+ \hfill
+\hfill
+
+\begin{abstract}
+  Arctic amplification results in changes to temperature and precipitation patterns in the Arctic region. Understanding where these main modes of variance occur and the correlations between these variables are essential for increasing the knowledge of the changing Arctic region for scientists and policymakers alike. This study uses ERA5 monthly mean precipitation and temperature to identify these patterns of change. An overall warming anomaly is clear in mean yearly temperature, with modes of temperature increase over the continents being clear. Precipitation changes are less overt, with overall change being apparent in Eastern Greenland and Europe. Correlation between temperature and precipitation for these regions shows a significant correlation for Eastern Greenland (r=0.96 and 0.91) and Europe (r=0.94 \& 0.93).
+   \end{abstract}
+\section{Introduction}
+
+Arctic amplification is the phenomenon in which the Arctic is warming more quickly than the rest of the globe. 
+Recent studies have shown that this increase is four times that of the global average \cite{rantanen2022arctic}. 
+This phenomenon is widely seen in both observational data, reanalysis datasets and climate model outputs \cite{chylek2022annual}.  This is due to several complex feedbacks and processes, the main ones being the overall global increase in temperature, changes in poleward energy transport and changes in moisture transport, all of which contribute to amplification \cite{serreze2011processes}. Particularly temperature and precipitation patterns have seen significant change due to the increase in heat and warm moist air in the regions. Certain areas of the Arctic have seen more significant changes than others due to the effects of local geography \cite{stuecker2018polar}.
+ 
+These significant changes in temperature and precipitation are resulting in extreme changes in the ecology and environment of the Arctic region. The Arctic is a significantly understudied region due to challenges with spatial and temporal access to the region, and the lack therefore of complete observational datasets. Bringing an increase in the overall understanding of these changes is therefore important for the scientific community from a modelling and observational standpoint, as well as bringing crucial results to help inform adaptation and mitigation strategies to the people who live in the region.
+ 
+The overall goal of this study is to investigate the patterns of change in this region, in terms of monthly temperature and precipitation. The following research questions were considered; What does the mean seasonal cycle in the Arctic look like? Have the temperature and precipitation anomalies changed over time? What are the dominant patterns of change and modes of variance? Can we reconstruct maximum and minimum years from PCA, even with significant differences between different parts of the Arctic region? And finally, can we see a correlation between changes in precipitation and temperature in different regions of the Arctic which have seen the most change? These research questions are relevant to studies of the Arctic which are interested in regions with the recent change, and also bring about a more thorough understanding of Arctic climate change.
+ 
+For this study, changes in monthly mean precipitation and temperature patterns in the Arctic were analyzed (60 to 90°N), from 1959 to 2021, using ERA5 reanalysis data. Reanalysis is a type of data product which uses physics to fill gaps in the observational network, combining weather models of the present with observations from the past. This data is available on a 30x30km grid, with 0.25° resolution. Following the initial analysis, a focus on three regions of significant change was made; Western  Europe (0 to 50°), Eastern Greenland (-50° to 0°) and The Western Canadian Arctic (-100° to -150°).
+ 
+ERA5 monthly precipitation is an average variable, which is the mean daily accumulative precipitation for each grid point, in m/day, for the monthly period. ERA5 is the most accurate reanalysis product for the Arctic \cite{hillebrand2021comparison}, with the smallest root mean square errors and the highest correlations with observational data \cite{graham2019improved}. In addition to this, monthly mean data for ERA5 tends to have smaller margins of error and ranges of uncertainty compared with hourly or daily measurements since small inaccuracies even out over longer periods. ERA5 monthly 2m temperature was used as temperature data, in Kelvin, which is the mean monthly temperature 2 meters above ground, a raw sample of this data is shown in fig\ref{raw}.
+ 
+
+
+
+\begin{figure}[!htb]
+  \centering
+    \includegraphics[width=\linewidth]{/Users/rmoore/final_510_tempsArctic_first_month.png}
+  \caption{January 1959 raw temperature data}\label{raw}
+  \end{figure}
+
+
+
+
+\section{Data and methods Methods}
+\subsection{Pre processing}
+ERA5 data is downloaded in grib files, and the temperature was converted to °C and precipitation to $mm/day$. The data used in this study was initially opened as a 3D array, with 756 windows of time (756 months), 121 rows of latitude and 1440 columns of longitude. This was converted to a 2D array where each column was a data point and each row was a month. The seasonal cycle was found, see fig.\ref{seasonal} which was the average seasonal signal for each grid point, over the 63 years of readings. This was then removed from the data to find the anomalies, which were of interest to the study since we were curious about the level of change in the region, see fig.\ref{anomalies}. The dataset of anomalies was also smoothed by applying a 3-month running mean on each grid point.
+ 
+\subsection{Experimental methods}
+To answer the key questions of what and where are the most dominant modes of variability for precipitation and temperature and whether are there patterns of correlation between the key modes of variability, PCA and CCA were performed.
+ 
+The mean temperature and precipitation for the entire region were found for each year, with the anonymous max and min years being evaluated. The ability of PCA to accurately reproduce extreme years is important since it is the increase in extreme events which is the main consequence of climate change in the region \cite{landrum2020extremes}. Since PCA is often the first step in statistical analysis, it is therefore important to verify its ability to represent extreme events.
+ 
+To find the dominant modes of variability, PCA was performed on the post-processed data, with 18 of 756  modes being used to reconstruct the temperature data and 110 of 756 modes being used for the precipitation data. The reconstructed data was then compared to the original post-processed data in its ability to represent extreme years.
+ 
+Three regions of significant change and interest were identified in the data from the results of the PCA. These regions were chosen for CCA analysis to see how correlated the patterns of temperature and precipitation are across different regions. Before CCA, PCA has performed once again on the data, but this time for the subregion in question only. It is common in Arctic analysis to split the region up into smaller areas since the area is so vast \cite{zhang2018variability}.  For CCA analysis, 2 modes of variability were analyzed for 500 iterations for each of the three regions chosen.
+ 
+ 
+
+\section{Key Results and Discussion}
+\subsection{Seasonal cycle and anomalies}
+The seaonal cycle for temperature showed a pattern between -22°C and 5°C, with precipitation showing a less extreme seasonal cycle between 0.8 and 1.6 $mm/day$ fig.\ref{seasonal}. 
+\begin{figure}[!htb]
+    \centering
+    \minipage{0.49\textwidth}
+      \includegraphics[width=\linewidth]{/Users/rmoore/final_510_tempsArctic_seasonalfig2.png}
+    \endminipage
+    \minipage{0.49\textwidth}
+      \includegraphics[width=\linewidth]{/Users/rmoore/final_510_precipArctic_seasonalfig2.png}
+    \endminipage
+    \caption{Yearly temperature and precipitation seasonal cycle, entire Arctic}\label{seasonal}
+    \end{figure}
+A clear increase in temperature over the period is seen in the temperature anomaly, with the difference between the mean yearly temperature for the minimum (1966) and maximum year (2016) being 4.55°C. Precipitation shows a sight increase, with a less defined trend, and a difference between minimum (1960) and maximum years (2020) being 0.22 $mm/day$ fig.\ref{anomaly}.
+\begin{figure}[!htb]
+\centering
+\minipage{0.49\textwidth}
+  \includegraphics[width=\linewidth]{/Users/rmoore/final_510_tempsArctic_anomalyfig4.png}
+\endminipage
+\minipage{0.49\textwidth}
+  \includegraphics[width=\linewidth]{/Users/rmoore/final_510_precipArctic_anomalyfig4.png}
+\endminipage
+\caption{Yearly temperature and precipitation anomalies, entire Arctic}\label{anomaly}
+\end{figure}
+
+
+
+\subsection{Dominant patterns of change}
+Three significant modes of variability are seen in the temperature data. The first is an overall warming mode, which is the temperature anomaly seen in fig.\ref{anomaly}. This anomaly is seen to increase over time in the PC space, and the eigenvector of mode 1 shows that this is most significant in the regions of North Western Europe. Further South and over Greenland this mode is less pronounced. The second shows warming over central continental Europe, which has a less defined temporal trend. This could be related to the polar vortex \cite{douville2009stratospheric} but was beyond the scope of this study. The third, is an increase in warming over the continents compared to the oceans, with significant cooling over Norway.
+ 
+
+
+\begin{figure}[!htb]
+    \centering
+    \minipage{0.99\textwidth}
+      \includegraphics[width=\linewidth]{/Users/rmoore/final_510_pcamodesArctic0temps.png}
+    \endminipage 
+    \\
+    \minipage{0.99\textwidth}
+      \includegraphics[width=\linewidth]{/Users/rmoore/final_510_pcamodesArctic1temps.png}
+    \endminipage
+    \\
+    \minipage{0.99\textwidth}
+      \includegraphics[width=\linewidth]{/Users/rmoore/final_510_pcamodesArctic2temps.png}
+    \endminipage
+    \caption{Key temperature modes, entire Arctic}\label{pca_temp}
+    \end{figure}
+
+    Modes of variability are less clear in the precipitation data. The first shows an increase in Eastern Greenland and a decrease in Western Norway. The second shows an increase in Eastern Greenland and an absence of precipitation in the rest of the region. The third shows an overall precipitation trend for the entire region, with a  lack of precipitation in Southern Alaska. Temporal trends represented in the modes do not show a clear pattern but this was expected since the overall precipitation anomaly for this region is more complex than the warming trend seen in the temperature data in fig.\ref{anomaly}.
+    \begin{figure}[!htb]
+        \centering
+        \minipage{0.99\textwidth}
+          \includegraphics[width=\linewidth]{/Users/rmoore/final_510_pcamodesArctic0precip.png}
+        \endminipage 
+        \\
+        \minipage{0.99\textwidth}
+          \includegraphics[width=\linewidth]{/Users/rmoore/final_510_pcamodesArctic1precip.png}
+        \endminipage
+        \\
+        \minipage{0.99\textwidth}
+          \includegraphics[width=\linewidth]{/Users/rmoore/final_510_pcamodesArctic2precip.png}
+        \endminipage
+        \caption{Key precipitation modes, entire Arctic}\label{pca_precip}
+        \end{figure}
+
+        The extreme years which were identified in fig.\ref{anomaly} were compared to the raw data to verify that the data which was reconstructed using PCA showed clearly the patterns of temperature and precipitation in extreme years. These plots, since only used for validation of the robustness of PCA are shown in the Appendix, figures \ref{max_temp_arctic} \& \ref{min_temp_arctic}.
+
+
+\subsection{Correlation between temperature and precipitation}
+Following PCA, three regions of interest were identified for CCA. Europe, since an overall cooling trend is seen in this region in two modes, and a warming trend in one, see fig.\ref{pca_temp}, Eastern Greenland since an overall increase in precipitation is seen in this region fig.\ref{pca_precip} and the Western Canadian Arctic (WCA) since there is an overall warming trend in North America and there were some anomalous precipitation patterns seen in figure fig.\ref{pca_precip}. The modes in this part of the analysis explain more of the variance (see figures in appendix) since a smaller region is looked at, therefore only two modes for each region are shown in the final results.
+ 
+In general, an increase in temperature is associated with increased precipitation \cite{box2019key} which is seen in all of the modes of fig.\ref{pca_precip}. Clear warming over Svalbard is seen in both modes (r=0.96 \& 0.91) as well as increased precipitation in Eastern Norway. Greenland shows increased warming over the Denmark Straight in mode one (r=0.94). A warming over the Greenland ice sheet is seen in mode two with increased precipitation to the Eastern part near the coast (r=0.93). In the WCA a clear warming trend is seen over the land in mode one (r=0.89) and over the ocean in mode two (r=0.86), with an increase in precipitation in both modes near Anchorage. It should be noted that since the regions chosen here are large, their correlations should not be considered causal until further analysis is completed.
+ 
+ 
+
+
+
+\section{Conclusion}
+There has been an overall increase in temperature anomaly since 1959 fig.\ref{anomaly}. Precipitation shows less of a clear pattern of change, with more detailed work required to clearly show how it is changing. Precipitation is a significantly localized variable, with this localization being lost in 30km grid sizing. Therefore using reanalysis products with smaller grid sizes is recommended for further work like this with monthly precipitation.
+ 
+Temperature and precipitation data can be successfully reconstructed using PCA, with extreme years being well represented. While removed from the final results of this study these plots can be seen in figures \ref{max_temp_arctic} \&\ref{min_temp_arctic}. This is required for work which looks directly at the analysis of extremes and also was used to verify that even for a very large and non-homogenous region, PCA is an accurate method to use.
+ 
+CCA results show that there is a significant correlation between temperature and precipitation, particularly in Europe and Western Greenland fig.\ref{pca_precip}.
+ 
+Further work with this project could look into the use of self-organising maps to see distinct regions with similar patterns of precipitation and temperature. This could show interesting relationships between these variables and local geography and would bring a more thorough understanding of the main modes of variance shown in figures \ref{pca_temp} \& \ref{pca_precip}.
+
+
+\newpage
+\pagebreak 
+\newpage
+
+
+
+
+
+
+
+\begin{figure}[!h!tb]
+  \centering
+  \minipage{0.99\textwidth}
+    \includegraphics[width=\linewidth]{/Users/rmoore/final_510_ccaEurope.png}
+  \endminipage 
+  \\
+  \minipage{0.99\textwidth}
+    \includegraphics[width=\linewidth]{/Users/rmoore/final_510_ccaGreenland.png}
+  \endminipage
+  \\
+  \minipage{0.99\textwidth}
+    \includegraphics[width=\linewidth]{/Users/rmoore/final_510_ccaWCA.png}
+  \endminipage
+  \caption{CCA results for Europe, Greenland and the Western Canadian Arctic. Values which are pink are smaller than values which are green.}\label{cca}
+  \end{figure}
+
+
+
+
+
+
+  \newpage
+  \pagebreak
+  \newpage
+  \clearpage
+  
+
+
+
+  \pagebreak[4]
+
+
+
+
+ \bibliography{refss}{}
+\bibliographystyle{apalike}
+
+
+
+
+
+
+
+\newpage
+\pagebreak
+\newpage
+\clearpage
+
+
+
+
+
+
+
+\section{Appendix}
+
+\begin{figure}[t!h]
+    \centering
+    \minipage{0.49\textwidth}
+    \centering
+      \includegraphics[width=0.6\linewidth]{/Users/rmoore/tempsArcticfinal_510_cumsum.png}
+    \endminipage
+    \minipage{0.49\textwidth}
+    \centering
+      \includegraphics[width=0.6\linewidth]{/Users/rmoore/precipArcticfinal_510_cumsum.png}
+    \endminipage
+    \caption{Variance explained by first 22 modes, entire Arctic}\label{PCA_cumsum_arctic}
+    \end{figure}
+
+\begin{figure}[b!h]
+    \centering
+    \minipage{0.99\textwidth}
+    \includegraphics[width=\linewidth]{/Users/rmoore/final_510_tempsArctic_min_year.png}
+  \endminipage
+  \\
+    \minipage{0.99\textwidth}
+      \includegraphics[width=\linewidth]{/Users/rmoore/final_510_recon_min_yeartempsArctic.png}
+    \endminipage 
+    \caption{Extreme year, minimum results, temperature, entire Arctic}\label{min_temp_arctic}
+\end{figure}
+
+\begin{figure}[!htb]
+    \centering
+    \minipage{0.99\textwidth}
+      \includegraphics[width=\linewidth]{/Users/rmoore/final_510_tempsArctic_max_year.png}
+    \endminipage
+    \\
+    \minipage{0.99\textwidth}
+      \includegraphics[width=\linewidth]{/Users/rmoore/final_510_recon_max_yeartempsArctic.png}
+    \endminipage 
+    \caption{Extreme year, maximum results, temperature, entire Arctic}\label{max_temp_arctic}
+\end{figure}
+
+    \begin{figure}[!htb]
+        \centering
+        \minipage{0.99\textwidth}
+          \includegraphics[width=\linewidth]{/Users/rmoore/final_510_precipArctic_min_year.png}
+        \endminipage
+    \\
+    \minipage{0.99\textwidth}
+    \includegraphics[width=\linewidth]{/Users/rmoore/final_510_recon_min_yearprecipArctic.png}
+  \endminipage 
+        \caption{Extreme year, minimum results, precipitation, entire Arctic}\label{min_precip_arctic}
+    \end{figure}
+
+\begin{figure}[!htb]
+    \centering
+    \minipage{0.99\textwidth}
+      \includegraphics[width=\linewidth]{/Users/rmoore/final_510_precipArctic_max_year.png}
+    \endminipage  
+\\
+\minipage{0.99\textwidth}
+      \includegraphics[width=\linewidth]{/Users/rmoore/final_510_recon_max_yearprecipArctic.png}
+    \endminipage 
+    \caption{Extreme year, maximum results, precipitation, entire Arctic}\label{max_temp_arctic}
+\end{figure}
+
+
+\begin{figure}[!htb]
+    \centering
+    \minipage{0.49\textwidth}
+    \centering
+      \includegraphics[width=0.6\linewidth]{/Users/rmoore/tempsEuropefinal_510_cumsum.png}
+    \endminipage
+    \minipage{0.49\textwidth}
+    \centering
+      \includegraphics[width=0.6\linewidth]{/Users/rmoore/precipEuropefinal_510_cumsum.png}
+    \endminipage
+    \caption{Variance explained by first 22 modes, Europe}\label{PCA_cumsum_europe}
+    \end{figure}
+
+\begin{figure}[!htb]
+    \centering
+    \minipage{0.99\textwidth}
+      \includegraphics[width=\linewidth]{/Users/rmoore/final_510_pcamodesEurope0temps.png}
+    \endminipage 
+    \\
+    \minipage{0.99\textwidth}
+      \includegraphics[width=\linewidth]{/Users/rmoore/final_510_pcamodesEurope1temps.png}
+    \endminipage
+    \\
+    \minipage{0.99\textwidth}
+      \includegraphics[width=\linewidth]{/Users/rmoore/final_510_pcamodesEurope2temps.png}
+    \endminipage
+    \caption{Key temperature modes, Europe}\label{pca_temp_europe}
+    \end{figure}
+
+    \begin{figure}[!htb]
+        \centering
+        \minipage{0.99\textwidth}
+          \includegraphics[width=\linewidth]{/Users/rmoore/final_510_pcamodesEurope0precip.png}
+        \endminipage 
+        \\
+        \minipage{0.99\textwidth}
+          \includegraphics[width=\linewidth]{/Users/rmoore/final_510_pcamodesEurope1precip.png}
+        \endminipage
+        \\
+        \minipage{0.99\textwidth}
+          \includegraphics[width=\linewidth]{/Users/rmoore/final_510_pcamodesEurope2precip.png}
+        \endminipage
+        \caption{Key precipitation modes, Europe}\label{pca_precip_europe}
+        \end{figure}
+
+
+        \subsection{Individual regions, supplementary material }
+
+\begin{figure}[!htb]
+    \centering
+    \minipage{0.49\textwidth}
+    \centering
+      \includegraphics[width=0.6\linewidth]{/Users/rmoore/tempsGreenlandfinal_510_cumsum.png}
+    \endminipage
+    \minipage{0.49\textwidth}
+    \centering
+      \includegraphics[width=0.6\linewidth]{/Users/rmoore/precipGreenlandfinal_510_cumsum.png}
+    \endminipage
+    \caption{Variance explained by first 22 modes, Eastern Greenland}\label{PCA_cumsum_green}
+    \end{figure}
+
+\begin{figure}[!htb]
+    \centering
+    \minipage{0.99\textwidth}
+      \includegraphics[width=\linewidth]{/Users/rmoore/final_510_pcamodesGreenland0temps.png}
+    \endminipage 
+    \\
+    \minipage{0.99\textwidth}
+      \includegraphics[width=\linewidth]{/Users/rmoore/final_510_pcamodesGreenland1temps.png}
+    \endminipage
+    \\
+    \minipage{0.99\textwidth}
+      \includegraphics[width=\linewidth]{/Users/rmoore/final_510_pcamodesGreenland2temps.png}
+    \endminipage
+    \caption{Key temperature modes, Eastern Greenland}\label{pca_temp_green}
+    \end{figure}
+
+    \begin{figure}[!htb]
+        \centering
+        \minipage{0.99\textwidth}
+          \includegraphics[width=\linewidth]{/Users/rmoore/final_510_pcamodesGreenland0precip.png}
+        \endminipage 
+        \\
+        \minipage{0.99\textwidth}
+          \includegraphics[width=\linewidth]{/Users/rmoore/final_510_pcamodesGreenland1precip.png}
+        \endminipage
+        \\
+        \minipage{0.99\textwidth}
+          \includegraphics[width=\linewidth]{/Users/rmoore/final_510_pcamodesGreenland2precip.png}
+        \endminipage
+        \caption{Key precipitation modes, Eastern Greenland}\label{pca_precip_green}
+        \end{figure}
+
+
+        \subsubsection{Western Canadian Arctic}
+\begin{figure}[!htb]
+    \centering
+    \minipage{0.49\textwidth}
+    \centering
+      \includegraphics[width=0.6\linewidth]{/Users/rmoore/tempsWCAfinal_510_cumsum.png}
+    \endminipage
+    \minipage{0.49\textwidth}
+    \centering
+      \includegraphics[width=0.6\linewidth]{/Users/rmoore/precipWCAfinal_510_cumsum.png}
+    \endminipage
+    \caption{Variance explained by first 22 modes, Western Canadian Arctic}\label{PCA_cumsum_WCA}
+    \end{figure}
+
+\begin{figure}[!htb]
+    \centering
+    \minipage{0.99\textwidth}
+      \includegraphics[width=\linewidth]{/Users/rmoore/final_510_pcamodesWCA0temps.png}
+    \endminipage 
+    \\
+    \minipage{0.99\textwidth}
+      \includegraphics[width=\linewidth]{/Users/rmoore/final_510_pcamodesWCA1temps.png}
+    \endminipage
+    \\
+    \minipage{0.99\textwidth}
+      \includegraphics[width=\linewidth]{/Users/rmoore/final_510_pcamodesWCA2temps.png}
+    \endminipage
+    \caption{Key temperature modes, Western Canadian Arctic}\label{pca_temp_WCA}
+    \end{figure}
+
+    \begin{figure}[!htb]
+        \centering
+        \minipage{0.99\textwidth}
+          \includegraphics[width=\linewidth]{/Users/rmoore/final_510_pcamodesWCA0precip.png}
+        \endminipage 
+        \\
+        \minipage{0.99\textwidth}
+          \includegraphics[width=\linewidth]{/Users/rmoore/final_510_pcamodesWCA1precip.png}
+        \endminipage
+        \\
+        \minipage{0.99\textwidth}
+          \includegraphics[width=\linewidth]{/Users/rmoore/final_510_pcamodesWCA2precip.png}
+        \endminipage
+        \caption{Key precipitation modes, Western Canadian Arctic}\label{pca_precip_WCA}
+        \end{figure}
+
+\end{document}
+
+

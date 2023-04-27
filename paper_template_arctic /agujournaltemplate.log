@@ -1,0 +1,730 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.10)  13 MAR 2023 10:42
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"/Users/rmoore/research_writing/paper_template_arctic /agujournaltemplate.tex"
+(/Users/rmoore/research_writing/paper_template_arctic /agujournaltemplate.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24> (./agujournal2019.cls
+Document Class: agujournal2019 01/14/2019
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen138
+\Gin@req@width=\dimen139
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count185
+\output=\toks17
+\linenoprevgraf=\count186
+\linenumbersep=\dimen140
+\linenumberwidth=\dimen141
+\c@linenumber=\count187
+\c@pagewiselinenumber=\count188
+\c@LN@truepage=\count189
+\c@internallinenumber=\count190
+\c@internallinenumbers=\count191
+\quotelinenumbersep=\dimen142
+\bframerule=\dimen143
+\bframesep=\dimen144
+\bframebox=\box50
+LaTeX Info: Redefining \\ on input line 3056.
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2021/12/15 v3.1 ragged2e Package
+\CenteringLeftskip=\skip47
+\RaggedLeftLeftskip=\skip48
+\RaggedRightLeftskip=\skip49
+\CenteringRightskip=\skip50
+\RaggedLeftRightskip=\skip51
+\RaggedRightRightskip=\skip52
+\CenteringParfillskip=\skip53
+\RaggedLeftParfillskip=\skip54
+\RaggedRightParfillskip=\skip55
+\JustifyingParfillskip=\skip56
+\CenteringParindent=\skip57
+\RaggedLeftParindent=\skip58
+\RaggedRightParindent=\skip59
+\JustifyingParindent=\skip60
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count192
+\rotFPtop=\skip61
+\rotFPbot=\skip62
+\rot@float@box=\box51
+\rot@mess@toks=\toks18
+)
+\draftskip=\count193
+\c@section=\count194
+\c@subsection=\count195
+\c@subsubsection=\count196
+\c@paragraph=\count197
+\c@subparagraph=\count198
+\c@figure=\count199
+\c@table=\count266
+\abovecaptionskip=\skip63
+\belowcaptionskip=\skip64
+\c@appendnum=\count267
+\bibindent=\dimen145
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/apacite/apacite.sty
+Package: apacite 2013/07/21 v6.03 APA citation
+\c@BibCnt=\count268
+\bibleftmargin=\skip65
+\bibindent=\skip66
+\bibparsep=\skip67
+\bibitemsep=\skip68
+\biblabelsep=\skip69
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen146
+\captionmargin=\dimen147
+\caption@leftmargin=\dimen148
+\caption@rightmargin=\dimen149
+\caption@width=\dimen150
+\caption@indent=\dimen151
+\caption@parindent=\dimen152
+\caption@hangindent=\dimen153
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = \long macro:#1#2->{\small \ifx \@captype \xfigure \vskip \abovecaptionskip \fi {\ifturnofflinenums \else \ifnumlines \internallinenumbers \fi \fi \sbox \@tempboxa {\bf #1.\quad \rm #2}\ifdim \wd \@tempboxa >.9\hsize \bf #1.\quad \rm \relax #2\par \else {\centering \bf #1.\rm \quad #2 \vskip 1sp} \fi } \ifx \@captype \xfigure \else \vskip \belowcaptionskip \fi } on input line 1176.
+)
+
+Package caption Warning: Unknown document class (or package),
+(caption)                standard defaults will be used.
+See the caption package documentation for explanation.
+
+\c@caption@flags=\count269
+\c@continuedfloat=\count270
+Package caption Info: rotating package is loaded.
+)
+\c@subfigure=\count271
+\c@subtable=\count272
+) (./trackchanges.sty
+Package: trackchanges 2009/04/22 v0.7.0 TrackChanges file 
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count273
+\calc@Bcount=\count274
+\calc@Adimen=\dimen154
+\calc@Bdimen=\dimen155
+\calc@Askip=\skip70
+\calc@Bskip=\skip71
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count275
+\calc@Cskip=\skip72
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks19
+\SOUL@lasttoken=\toks20
+\SOUL@cmds=\toks21
+\SOUL@buffer=\toks22
+\SOUL@token=\toks23
+\SOUL@spaceskip=\skip73
+\SOUL@ttwidth=\dimen156
+\SOUL@uldp=\dimen157
+\SOUL@ulht=\dimen158
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/morefloats/morefloats.sty
+Package: morefloats 2015/07/22 v1.0h Raise limit of unprocessed floats (HMM)
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+Package morefloats Info: Maximum number of possible floats asked for: 36
+(morefloats)             (i.e. 18 more floats).
+(morefloats)             LaTeX might run out of memory before this
+(morefloats)             (in which case it will notify you).
+)
+\c@userid=\count276
+\c@changenumber=\count277
+\c@storefootnote=\count278
+\c@numeditors=\count279
+\c@maxeditors=\count280
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count281
+\l__pdf_internal_box=\box52
+) (./agujournaltemplate.aux
+
+LaTeX Warning: Label `fig:Ng1' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:Ng1' multiply defined.
+
+
+LaTeX Warning: Label `fig:Ng2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:Ng2' multiply defined.
+
+
+LaTeX Warning: Label `fig:Ng1' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:Ng1' multiply defined.
+
+
+LaTeX Warning: Label `fig:Ng2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:Ng2' multiply defined.
+
+
+LaTeX Warning: Label `fig:Ng1' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:Ng1' multiply defined.
+
+
+LaTeX Warning: Label `fig:Ng2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:Ng2' multiply defined.
+
+
+LaTeX Warning: Label `fig:Ng1' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:Ng1' multiply defined.
+
+
+LaTeX Warning: Label `fig:Ng2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:Ng2' multiply defined.
+
+
+LaTeX Warning: Label `fig:Ng1' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:Ng1' multiply defined.
+
+
+LaTeX Warning: Label `fig:Ng2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:Ng2' multiply defined.
+
+
+LaTeX Warning: Label `fig:Ng1' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:Ng1' multiply defined.
+
+
+LaTeX Warning: Label `fig:Ng2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:Ng2' multiply defined.
+
+)
+\openout1 = `agujournaltemplate.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+ (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count282
+\scratchdimen=\dimen159
+\scratchbox=\box53
+\nofMPsegments=\count283
+\nofMParguments=\count284
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count285
+\MPscratchDim=\dimen160
+\MPnumerator=\count286
+\makeMPintoPDFobject=\count287
+\everyMPtoPDFconversion=\toks25
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)) (/usr/local/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+\c@maskedRefs=\count288
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/apacite/english.apc
+File: english.apc 2013/07/21 v6.03 apacite language file
+LaTeX Info: Redefining \BPBI on input line 129.
+LaTeX Info: Redefining \BHBI on input line 130.
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 111.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 111.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 111.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 139.
+ [1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <10.5> not available
+(Font)              size <10.95> substituted on input line 171.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <10.5> not available
+(Font)              size <10.95> substituted on input line 171.
+
+<figures/weather_stations.png, id=17, 853.1875pt x 853.1875pt>
+File: figures/weather_stations.png Graphic file (type png)
+<use figures/weather_stations.png>
+Package pdftex.def Info: figures/weather_stations.png  used on input line 184.
+(pdftex.def)             Requested size: 198.7425pt x 198.74158pt.
+<figures/heatmaps_alert.png, id=19, 971.63pt x 536.0025pt>
+File: figures/heatmaps_alert.png Graphic file (type png)
+<use figures/heatmaps_alert.png>
+Package pdftex.def Info: figures/heatmaps_alert.png  used on input line 197.
+(pdftex.def)             Requested size: 218.61795pt x 120.59535pt.
+<figures/heatmaps_eureka.png, id=20, 860.21375pt x 478.78876pt>
+File: figures/heatmaps_eureka.png Graphic file (type png)
+<use figures/heatmaps_eureka.png>
+Package pdftex.def Info: figures/heatmaps_eureka.png  used on input line 203.
+(pdftex.def)             Requested size: 218.61795pt x 121.67674pt.
+<figures/heatmaps_tuktoyaktuk.png, id=21, 942.52126pt x 527.9725pt>
+File: figures/heatmaps_tuktoyaktuk.png Graphic file (type png)
+<use figures/heatmaps_tuktoyaktuk.png>
+Package pdftex.def Info: figures/heatmaps_tuktoyaktuk.png  used on input line 209.
+(pdftex.def)             Requested size: 218.61795pt x 122.46231pt.
+
+Overfull \hbox (7.59895pt too wide) in paragraph at lines 221--225
+[]\OT1/cmr/m/n/10 end my key val-i-da-tion pe-riod is my key sta-tions are this is where I have suf-fi-cient 
+ []
+
+
+Overfull \hbox (13.55728pt too wide) in paragraph at lines 226--228
+[][]\OT1/cmr/m/n/10 Mahrt & Gam-age, 1987) sup-ple-men-tal - if I change time pe-riod I get the same re- 
+ []
+
+
+Overfull \hbox (4.98784pt too wide) in paragraph at lines 230--234
+[]\OT1/cmr/m/n/10 What is the data sen-sors, pre-ci-sion, lim-its from a gauge set up for rain and snow 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2 <./figures/weather_stations.png>] [3 <./figures/heatmaps_alert.png> <./figures/heatmaps_eureka.png> <./figures/heatmaps_tuktoyaktuk.png>]
+Overfull \hbox (4.73782pt too wide) in paragraph at lines 244--246
+[]\OT1/cmr/m/n/10 how can you de-scribe the vari-ables what does the lit-er-a-ture say about how much 
+ []
+
+
+Overfull \hbox (5.01549pt too wide) in paragraph at lines 247--249
+[]\OT1/cmr/m/n/10 this is pre-cip, this is what is anal-ysed, there is con-vec-tive and large scale there is 
+ []
+
+
+Overfull \hbox (13.15442pt too wide) in paragraph at lines 250--252
+[]\OT1/cmr/m/n/10 variable at a cer-tain time step, this is how you work with them This is how we use 
+ []
+
+
+Overfull \hbox (5.8212pt too wide) in paragraph at lines 257--259
+[]\OT1/cmr/m/n/10 1. ex-tract one grid point of ERA5 (near-est neigh-bour) as op-posed to 6 which are 
+ []
+
+
+Overfull \hbox (9.23782pt too wide) in paragraph at lines 257--259
+\OT1/cmr/m/n/10 clos-est - this method is a choice, some-times this can be mis-placed, looked at this in the 
+ []
+
+
+Overfull \hbox (7.84888pt too wide) in paragraph at lines 260--262
+[]\OT1/cmr/m/n/10 prob 1 2. we have known is-sues with ERA - too much TP re-move from the gauge 
+ []
+
+
+Overfull \hbox (11.6268pt too wide) in paragraph at lines 263--264
+[]\OT1/cmr/m/n/10 problem 2 3. deal with amount of pre-cip - amount is 10 times too small, fixed this 
+ []
+
+<figures/plot_in_progress.png, id=33, 186.6975pt x 100.375pt>
+File: figures/plot_in_progress.png Graphic file (type png)
+<use figures/plot_in_progress.png>
+Package pdftex.def Info: figures/plot_in_progress.png  used on input line 266.
+(pdftex.def)             Requested size: 198.7425pt x 106.85492pt.
+
+Overfull \hbox (21.62672pt too wide) in paragraph at lines 273--278
+[]\OT1/cmr/m/n/10 - how I scaled this, 10 year decadal mean - eval-u-a-tion of this method - does it work? 
+ []
+
+
+Overfull \hbox (27.40462pt too wide) in paragraph at lines 273--278
+\OT1/cmr/m/n/10 still need to work on this .... 1. monthly is sum of daily? 2. com-pare to Van-cou-ver weather 
+ []
+
+
+Overfull \hbox (16.54333pt too wide) in paragraph at lines 280--284
+[]\OT1/cmr/m/n/10 subsection - met-rics that I choose and why these are good met-rics - What is it that 
+ []
+
+
+Overfull \hbox (24.62677pt too wide) in paragraph at lines 280--284
+\OT1/cmr/m/n/10 I am try-ing to do? - want to see pre-cip quanity, fre-quency, list of vari-ables, how used what 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <./figures/plot_in_progress.png>]
+Overfull \hbox (12.57114pt too wide) in paragraph at lines 296--297
+[]\OT1/cmr/m/n/10 method - take pe-riod af-ter-age or first 30 year av-er-age etc, ? - is this sta-ble enough 
+ []
+
+
+Overfull \hbox (19.12674pt too wide) in paragraph at lines 300--301
+[]\OT1/cmr/m/n/10 comment on cli-ma-tol-ogy - win-ter months, spring - is cou-pled or de-cou-pled with pre- 
+ []
+
+
+Overfull \hbox (2.79326pt too wide) in paragraph at lines 302--303
+[]\OT1/cmr/m/n/10 based on this = this is how I de-fine my sea-sons - 4 sea-sons - based on my cli-ma- 
+ []
+
+<figures/temperature_climatologly_tuktoyaktuk.png, id=38, 393.47pt x 246.9225pt>
+File: figures/temperature_climatologly_tuktoyaktuk.png Graphic file (type png)
+<use figures/temperature_climatologly_tuktoyaktuk.png>
+Package pdftex.def Info: figures/temperature_climatologly_tuktoyaktuk.png  used on input line 307.
+(pdftex.def)             Requested size: 218.61795pt x 137.19054pt.
+<figures/precip_accum_per_month_tuk_00_10.png, id=39, 334.24875pt x 243.91125pt>
+File: figures/precip_accum_per_month_tuk_00_10.png Graphic file (type png)
+<use figures/precip_accum_per_month_tuk_00_10.png>
+Package pdftex.def Info: figures/precip_accum_per_month_tuk_00_10.png  used on input line 313.
+(pdftex.def)             Requested size: 218.61795pt x 159.53786pt.
+[5 <./figures/temperature_climatologly_tuktoyaktuk.png> <./figures/precip_accum_per_month_tuk_00_10.png>]
+Overfull \hbox (1.59895pt too wide) in paragraph at lines 324--328
+[]\OT1/cmr/m/n/10 era is not do-ing enough in sum-mer vs win-ter sub-dued sea-sonal cy-cle as-sim-i-lated 
+ []
+
+
+Overfull \hbox (0.29338pt too wide) in paragraph at lines 331--333
+[]\OT1/cmr/m/n/10 I am see-ing an in-ter-est-ing pat-tern first month when pre-cip is dou-ble , map onto 
+ []
+
+
+Overfull \hbox (15.48781pt too wide) in paragraph at lines 331--333
+\OT1/cmr/m/n/10 the whole of ERA - how rep-re-sen-ta-tive is my data point over the gen-eral area (show this 
+ []
+
+
+Overfull \hbox (8.73781pt too wide) in paragraph at lines 334--337
+[]\OT1/cmr/m/n/10 with a proper de-scrip-tion of what is in the plot needs to be very per-cise, num-bers 
+ []
+
+File: figures/plot_in_progress.png Graphic file (type png)
+<use figures/plot_in_progress.png>
+Package pdftex.def Info: figures/plot_in_progress.png  used on input line 340.
+(pdftex.def)             Requested size: 198.7425pt x 106.85492pt.
+<figures/cdf_pdf/pdf_accum_alert_10_20.png, id=45, 361.35pt x 361.35pt>
+File: figures/cdf_pdf/pdf_accum_alert_10_20.png Graphic file (type png)
+<use figures/cdf_pdf/pdf_accum_alert_10_20.png>
+Package pdftex.def Info: figures/cdf_pdf/pdf_accum_alert_10_20.png  used on input line 355.
+(pdftex.def)             Requested size: 178.86702pt x 178.86604pt.
+<figures/cdf_pdf/pdf_occurance_alert_10_20.png, id=46, 361.35pt x 361.35pt>
+File: figures/cdf_pdf/pdf_occurance_alert_10_20.png Graphic file (type png)
+<use figures/cdf_pdf/pdf_occurance_alert_10_20.png>
+Package pdftex.def Info: figures/cdf_pdf/pdf_occurance_alert_10_20.png  used on input line 360.
+(pdftex.def)             Requested size: 178.86702pt x 178.86604pt.
+<figures/cdf_pdf/hist_accum_alert_10_20.png, id=47, 650.43pt x 361.35pt>
+File: figures/cdf_pdf/hist_accum_alert_10_20.png Graphic file (type png)
+<use figures/cdf_pdf/hist_accum_alert_10_20.png>
+Package pdftex.def Info: figures/cdf_pdf/hist_accum_alert_10_20.png  used on input line 365.
+(pdftex.def)             Requested size: 178.86702pt x 99.36879pt.
+<figures/cdf_pdf/hist_occurance_alert_10_20.png, id=48, 650.43pt x 361.35pt>
+File: figures/cdf_pdf/hist_occurance_alert_10_20.png Graphic file (type png)
+<use figures/cdf_pdf/hist_occurance_alert_10_20.png>
+Package pdftex.def Info: figures/cdf_pdf/hist_occurance_alert_10_20.png  used on input line 370.
+(pdftex.def)             Requested size: 178.86702pt x 99.36879pt.
+<figures/cdf_pdf/cdf_accum_alert_10_20.png, id=49, 361.35pt x 361.35pt>
+File: figures/cdf_pdf/cdf_accum_alert_10_20.png Graphic file (type png)
+<use figures/cdf_pdf/cdf_accum_alert_10_20.png>
+Package pdftex.def Info: figures/cdf_pdf/cdf_accum_alert_10_20.png  used on input line 375.
+(pdftex.def)             Requested size: 178.86702pt x 178.86604pt.
+<figures/cdf_pdf/cdf_occurance_alert_10_20.png, id=50, 361.35pt x 361.35pt>
+File: figures/cdf_pdf/cdf_occurance_alert_10_20.png Graphic file (type png)
+<use figures/cdf_pdf/cdf_occurance_alert_10_20.png>
+Package pdftex.def Info: figures/cdf_pdf/cdf_occurance_alert_10_20.png  used on input line 380.
+(pdftex.def)             Requested size: 178.86702pt x 178.86604pt.
+
+Overfull \hbox (7.3767pt too wide) in paragraph at lines 395--397
+[]\OT1/cmr/m/n/10 is the mean-ing of the re-sults the same in each case? 1. pre-cip dis-tri-bu-tion (plots)  
+ []
+
+<figures/accum_extreme_days_tuk_00_10.png, id=51, 543.02875pt x 373.395pt>
+File: figures/accum_extreme_days_tuk_00_10.png Graphic file (type png)
+<use figures/accum_extreme_days_tuk_00_10.png>
+Package pdftex.def Info: figures/accum_extreme_days_tuk_00_10.png  used on input line 403.
+(pdftex.def)             Requested size: 218.61795pt x 150.32393pt.
+<figures/mean_no_extreme_days_tuk_00_10.png, id=52, 552.0625pt x 428.60126pt>
+File: figures/mean_no_extreme_days_tuk_00_10.png Graphic file (type png)
+<use figures/mean_no_extreme_days_tuk_00_10.png>
+Package pdftex.def Info: figures/mean_no_extreme_days_tuk_00_10.png  used on input line 409.
+(pdftex.def)             Requested size: 218.61795pt x 169.73055pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 414--414
+[]\OT1/cmr/m/n/10 Figure  7: |Num-ber of ex-treme pre-cip days per sea-son, with sub-plot of ac-cu-mu-la-tion due
+ []
+
+
+Overfull \hbox (16.37672pt too wide) in paragraph at lines 420--422
+[]\OT1/cmr/m/n/10 plot for prec-n-tile to de-fine ex-tremes show a com-para-sion of whether you need a dif- 
+ []
+
+File: figures/plot_in_progress.png Graphic file (type png)
+<use figures/plot_in_progress.png>
+Package pdftex.def Info: figures/plot_in_progress.png  used on input line 428.
+(pdftex.def)             Requested size: 198.7425pt x 106.85492pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 429--429
+[]\OT1/cmr/m/n/10 Figure  8: |Num-ber of ex-treme pre-cip days per sea-son - ERA com-para-sion, with sub-plot of
+ []
+
+
+Overfull \hbox (7.68214pt too wide) in paragraph at lines 437--442
+[]\OT1/cmr/m/n/10 seasonal num-ber of events we have more events in sum-mer - ex-pected as pre-cip is 
+ []
+
+
+Overfull \hbox (15.04329pt too wide) in paragraph at lines 437--442
+\OT1/cmr/m/n/10 higher when warmer ERA finds all events oc-cur-rence is well char-ac-terised once you mas- 
+ []
+
+
+Overfull \hbox (3.0157pt too wide) in paragraph at lines 446--448
+[]\OT1/cmr/m/n/10 - eval-u-a-tion of era is good at oc-cur-rence, is the amount or the pro-por-tion-al-ity of 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6] [7 <./figures/cdf_pdf/pdf_accum_alert_10_20.png> <./figures/cdf_pdf/pdf_occurance_alert_10_20.png> <./figures/cdf_pdf/hist_accum_alert_10_20.png> <./figures/cdf_pdf/hist_occurance_alert_10_20.png> <./figures/cdf_pdf/cdf_accum_alert_10_20.png> <./figures/cdf_pdf/cdf_occurance_alert_10_20.png>] [8 <./figures/accum_extreme_days_tuk_00_10.png> <./figures/mean_no_extreme_days_tuk_00_10.png>]
+<figures/year_extreme_temp_precip_days_tuk_00_10.png, id=71, 521.95pt x 342.27875pt>
+File: figures/year_extreme_temp_precip_days_tuk_00_10.png Graphic file (type png)
+<use figures/year_extreme_temp_precip_days_tuk_00_10.png>
+Package pdftex.def Info: figures/year_extreme_temp_precip_days_tuk_00_10.png  used on input line 469.
+(pdftex.def)             Requested size: 218.61795pt x 143.36438pt.
+<figures/temp_vs_no_extreme_days_tuk_00_10.png, id=72, 505.89pt x 307.1475pt>
+File: figures/temp_vs_no_extreme_days_tuk_00_10.png Graphic file (type png)
+<use figures/temp_vs_no_extreme_days_tuk_00_10.png>
+Package pdftex.def Info: figures/temp_vs_no_extreme_days_tuk_00_10.png  used on input line 475.
+(pdftex.def)             Requested size: 218.61795pt x 132.73166pt.
+
+Underfull \vbox (badness 2020) has occurred while \output is active []
+
+ [9 <./figures/year_extreme_temp_precip_days_tuk_00_10.png> <./figures/temp_vs_no_extreme_days_tuk_00_10.png>]
+<figures/decadal_seasonal_daily_precip_trend_tuk.png, id=78, 563.10374pt x 314.17375pt>
+File: figures/decadal_seasonal_daily_precip_trend_tuk.png Graphic file (type png)
+<use figures/decadal_seasonal_daily_precip_trend_tuk.png>
+Package pdftex.def Info: figures/decadal_seasonal_daily_precip_trend_tuk.png  used on input line 506.
+(pdftex.def)             Requested size: 218.61795pt x 121.97116pt.
+<figures/decadal_seasonal_temperature_tuk.png, id=79, 612.2875pt x 336.25626pt>
+File: figures/decadal_seasonal_temperature_tuk.png Graphic file (type png)
+<use figures/decadal_seasonal_temperature_tuk.png>
+Package pdftex.def Info: figures/decadal_seasonal_temperature_tuk.png  used on input line 512.
+(pdftex.def)             Requested size: 218.61795pt x 120.05676pt.
+<figures/no_precip_days_per_month_tuk_10_20.png, id=80, 372.39125pt x 258.9675pt>
+File: figures/no_precip_days_per_month_tuk_10_20.png Graphic file (type png)
+<use figures/no_precip_days_per_month_tuk_10_20.png>
+Package pdftex.def Info: figures/no_precip_days_per_month_tuk_10_20.png  used on input line 530.
+(pdftex.def)             Requested size: 218.61795pt x 152.03474pt.
+<figures/no_precip_days_per_year_tuk_10_20.png, id=81, 548.0475pt x 384.43625pt>
+File: figures/no_precip_days_per_year_tuk_10_20.png Graphic file (type png)
+<use figures/no_precip_days_per_year_tuk_10_20.png>
+Package pdftex.def Info: figures/no_precip_days_per_year_tuk_10_20.png  used on input line 536.
+(pdftex.def)             Requested size: 218.61795pt x 153.35529pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 541--541
+[]\OT1/cmr/m/n/10 Figure  11: |No. pre-cip days per month and per year - show that this has changed ??
+ []
+
+File: figures/precip_accum_per_month_tuk_00_10.png Graphic file (type png)
+<use figures/precip_accum_per_month_tuk_00_10.png>
+Package pdftex.def Info: figures/precip_accum_per_month_tuk_00_10.png  used on input line 552.
+(pdftex.def)             Requested size: 218.61795pt x 159.53786pt.
+<figures/precip_accum_per_year_tuk_20_10.png, id=82, 567.11874pt x 398.48875pt>
+File: figures/precip_accum_per_year_tuk_20_10.png Graphic file (type png)
+<use figures/precip_accum_per_year_tuk_20_10.png>
+Package pdftex.def Info: figures/precip_accum_per_year_tuk_20_10.png  used on input line 558.
+(pdftex.def)             Requested size: 218.61795pt x 153.61017pt.
+
+Overfull \hbox (11.0711pt too wide) in paragraph at lines 570--574
+[]\OT1/cmr/m/n/10 trend in temp and pre-cip how do i de-scribe what is the sig-nal how do i make a re- 
+ []
+
+
+Overfull \hbox (8.83513pt too wide) in paragraph at lines 782--783
+[]\OT1/cmr/m/n/10 AGU re-quires an Avail-abil-ity State-ment for the un-der-ly-ing data needed to un-der- 
+ []
+
+
+Overfull \hbox (21.51572pt too wide) in paragraph at lines 782--783
+\OT1/cmr/m/n/10 stand, eval-u-ate, and build upon the re-ported re-search at the time of peer re-view and pub- 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10 <./figures/decadal_seasonal_daily_precip_trend_tuk.png> <./figures/decadal_seasonal_temperature_tuk.png>] [11 <./figures/no_precip_days_per_month_tuk_10_20.png> <./figures/no_precip_days_per_year_tuk_10_20.png>] [12 <./figures/precip_accum_per_year_tuk_20_10.png>]
+Overfull \hbox (5.8768pt too wide) in paragraph at lines 784--785
+[]\OT1/cmr/m/n/10 Authors should in-clude an Avail-abil-ity State-ment for the soft-ware that has a sig- 
+ []
+
+
+Overfull \hbox (12.46016pt too wide) in paragraph at lines 784--785
+\OT1/cmr/m/n/10 nif-i-cant im-pact on the re-search. De-tails and tem-plates are in the Avail-abil-ity State-ment 
+ []
+
+
+Overfull \hbox (17.83366pt too wide) in paragraph at lines 784--785
+\OT1/cmr/m/n/10 sec-tion of the Data and Soft-ware for Au-thors Guid-ance: $\OT1/cmtt/m/n/10 https :// www [] .agu [] .org / Publish [] 
+ []
+
+
+Overfull \hbox (30.76149pt too wide) in paragraph at lines 784--785
+\OT1/cmtt/m/n/10 -with [] -AGU / Publish / Author [] -Resources / Data [] -and [] -Software [] -for [] -Authors # availability$  
+ []
+
+
+Overfull \hbox (14.48792pt too wide) in paragraph at lines 786--787
+[]\OT1/cmr/m/n/10 It is im-por-tant to cite in-di-vid-ual datasets in this sec-tion and, and they must be in- 
+ []
+
+
+Overfull \hbox (3.57126pt too wide) in paragraph at lines 786--787
+\OT1/cmr/m/n/10 cluded in your bib-li-og-ra-phy. Please use the type field in your bib-tex file to spec-ify the 
+ []
+
+
+Overfull \hbox (2.34909pt too wide) in paragraph at lines 786--787
+\OT1/cmr/m/n/10 type of data cited. Some op-tions in-clude Dataset, Soft-ware, Col-lec-tion, Com-pu-ta-tion- 
+ []
+
+
+Overfull \hbox (10.45999pt too wide) in paragraph at lines 802--805
+[]\OT1/cmr/m/n/10 For phys-i-cal sam-ples, use the IGSN per-sis-tent iden-ti-fier, see the In-ter-na-tional Geo 
+ []
+
+
+Overfull \hbox (9.124pt too wide) in paragraph at lines 802--805
+\OT1/cmr/m/n/10 Sam-ple Num-bers sec-tion: $\OT1/cmtt/m/n/10 https :// www [] .agu [] .org / Publish [] -with [] -AGU / Publish / Author [] 
+ []
+
+
+Overfull \hbox (24.65457pt too wide) in paragraph at lines 806--808
+\OT1/cmr/m/n/10 This sec-tion is op-tional. In-clude any Ac-knowl-edg-ments here. The ac-knowl-edg-ments should 
+ []
+
+
+Overfull \hbox (6.2935pt too wide) in paragraph at lines 811--811
+[]\OT1/cmr/m/n/10 Other af-fil-i-a-tions for any au-thor that may be per-ceived as hav-ing a con-flict of in- 
+ []
+
+
+Overfull \hbox (4.27953pt too wide) in paragraph at lines 812--813
+[]\OT1/cmr/m/n/10 It is also the ap-pro-pri-ate place to thank col-leagues and other con-trib-u-tors. AGU 
+ []
+
+(./agujournaltemplate.bbl
+Underfull \hbox (badness 2042) in paragraph at lines 16--31
+[]\OT1/cmr/m/n/10 Mahrt, L., & Gam-age, N.  (1987, April).  Ob-ser-va-tions of Tur-bu-lence in Strat-i-fied 
+ []
+
+) [13] (./agujournaltemplate.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.45pt have occurred.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 5454 strings out of 478268
+ 97502 string characters out of 5846346
+ 391936 words of memory out of 5000000
+ 23571 multiletter control sequences out of 15000+600000
+ 474900 words of font info for 47 fonts, out of 8000000 for 9000
+ 1147 hyphenation exceptions out of 8191
+ 70i,10n,77p,474b,504s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on agujournaltemplate.pdf (13 pages, 1411223 bytes).
+PDF statistics:
+ 177 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+

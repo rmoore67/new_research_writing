@@ -1,0 +1,32 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+{Mahrt}%
+\ \BBA {} {Gamage}%
+}{%
+{Mahrt}%
+\ \BBA {} {Gamage}%
+}{%
+{\protect \APACyear {1987}}%
+}]{%
+Mahrt1987}
+\APACinsertmetastar {%
+Mahrt1987}%
+\begin{APACrefauthors}%
+{Mahrt}, L.%
+\BCBT {}\ \BBA {} {Gamage}, N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1987}{{\APACmonth{04}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Observations of Turbulence in Stratified Flow}}
+  {{Observations of Turbulence in Stratified Flow}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Atmospheric Sciences}{44}{7}{1106-1122}.
+\newblock
+\begin{APACrefDOI} \doi{10.1175/1520-0469(1987)044<1106:OOTISF>2.0.CO;2}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
