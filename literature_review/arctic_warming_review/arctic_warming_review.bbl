@@ -31,6 +31,12 @@ Chakravarty, P. and Kumar, M. (2019).
 \newblock In Pandey, V.~C. and Bauddh, K., editors, {\em Phytomanagement of
   Polluted Sites}, pages 203--219. Elsevier.
 
+\bibitem[Cohen et~al., 2014]{cohen2014recent}
+Cohen, J., Screen, J.~A., Furtado, J.~C., Barlow, M., Whittleston, D., Coumou,
+  D., Francis, J., Dethloff, K., Entekhabi, D., Overland, J., et~al. (2014).
+\newblock Recent arctic amplification and extreme mid-latitude weather.
+\newblock {\em Nature geoscience}, 7(9):627--637.
+
 \bibitem[Dai et~al., 2019]{dai2019arctic}
 Dai, A., Luo, D., Song, M., and Liu, J. (2019).
 \newblock Arctic amplification is caused by sea-ice loss under increasing co2.
@@ -44,6 +50,7 @@ Davy, R., Chen, L., and Hanna, E. (2018).
 \bibitem[Druckenmiller et~al., 2022]{druckenmiller2022arctic}
 Druckenmiller, M.~L., Thoman, R., and Moon, T. (2022).
 \newblock Arctic report card 2022.
+\newblock {\em NOAA}.
 
 \bibitem[Dufour et~al., 2016]{dufour2016atmospheric}
 Dufour, A., Zolina, O., and Gulev, S.~K. (2016).
@@ -104,6 +111,17 @@ Meredith, Sommerkorn, C. (2019).
   a changing climate.
 \newblock {\em IPCC}.
 
+\bibitem[Notz and Stroeve, 2018]{notz2018trajectory}
+Notz, D. and Stroeve, J. (2018).
+\newblock The trajectory towards a seasonally ice-free arctic ocean.
+\newblock {\em Current Climate Change Reports}, 4:407--416.
+
+\bibitem[Oshima and Yamazaki, 2017]{oshima2017atmospheric}
+Oshima, K. and Yamazaki, K. (2017).
+\newblock Atmospheric hydrological cycles in the arctic and antarctic during
+  the past four decades.
+\newblock {\em Czech Polar Reports}, 7(2):169--180.
+
 \bibitem[Pithan et~al., 2014]{pithan2014mixed}
 Pithan, F., Medeiros, B., and Mauritsen, T. (2014).
 \newblock Mixed-phase clouds cause climate model biases in arctic wintertime
@@ -122,6 +140,13 @@ Rantanen, M., Karpechko, A.~Y., Lipponen, A., Nordling, K., Hyv{\"a}rinen, O.,
 \newblock The arctic has warmed nearly four times faster than the globe since
   1979.
 \newblock {\em Communications Earth \& Environment}, 3(1):168.
+
+\bibitem[Rinke et~al., 2019]{rinke2019trends}
+Rinke, A., Segger, B., Crewell, S., Maturilli, M., Naakka, T., Nyg{\aa}rd, T.,
+  Vihma, T., Alshawaf, F., Dick, G., Wickert, J., et~al. (2019).
+\newblock Trends of vertically integrated water vapor over the arctic during
+  1979--2016: Consistent moistening all over?
+\newblock {\em Journal of Climate}, 32(18):6097--6116.
 
 \bibitem[Russotto and Biasutti, 2020]{russotto2020polar}
 Russotto, R.~D. and Biasutti, M. (2020).

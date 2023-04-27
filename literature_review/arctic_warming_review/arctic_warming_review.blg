@@ -3,46 +3,44 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: arctic_warming_review.aux
 The style file: apalike.bst
 Database file #1: ../mybib.bib
-Warning--empty journal in druckenmiller2022arctic
-You've used 27 entries,
+You've used 31 entries,
             1935 wiz_defined-function locations,
-            645 strings with 9233 characters,
-and the built_in function-call counts, 12218 in all, are:
-= -- 1150
-> -- 642
-< -- 11
-+ -- 236
-- -- 224
-* -- 1154
-:= -- 2151
-add.period$ -- 81
-call.type$ -- 27
-change.case$ -- 245
-chr.to.int$ -- 27
-cite$ -- 28
-duplicate$ -- 388
-empty$ -- 782
-format.name$ -- 267
-if$ -- 2321
+            669 strings with 10158 characters,
+and the built_in function-call counts, 14397 in all, are:
+= -- 1356
+> -- 784
+< -- 13
++ -- 290
+- -- 276
+* -- 1370
+:= -- 2535
+add.period$ -- 94
+call.type$ -- 31
+change.case$ -- 289
+chr.to.int$ -- 31
+cite$ -- 31
+duplicate$ -- 444
+empty$ -- 903
+format.name$ -- 327
+if$ -- 2728
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 27
-newline$ -- 137
-num.names$ -- 83
-pop$ -- 192
+missing$ -- 31
+newline$ -- 158
+num.names$ -- 95
+pop$ -- 224
 preamble$ -- 1
-purify$ -- 245
+purify$ -- 289
 quote$ -- 0
-skip$ -- 295
+skip$ -- 339
 stack$ -- 0
-substring$ -- 862
-swap$ -- 35
+substring$ -- 1018
+swap$ -- 40
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 162
-warning$ -- 1
-while$ -- 92
+type$ -- 186
+warning$ -- 0
+while$ -- 108
 width$ -- 0
-write$ -- 350
-(There was 1 warning)
+write$ -- 404

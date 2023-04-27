@@ -14,11 +14,24 @@ Dou, T., Xiao, C., Liu, J., Wang, Q., Pan, S., Su, J., Yuan, X., Ding, M.,
   ocean during the early melt season.
 \newblock {\em The Cryosphere}, 15(2):883--895.
 
+\bibitem[Fletcher, 2022]{fletcher2022data}
+Fletcher, S.~J. (2022).
+\newblock {\em Data assimilation for the geosciences: From theory to
+  application}.
+\newblock Elsevier.
+
 \bibitem[Ford and Frauenfeld, 2022]{ford2022arctic}
 Ford, V.~L. and Frauenfeld, O.~W. (2022).
 \newblock Arctic precipitation recycling and hydrologic budget changes in
   response to sea ice loss.
 \newblock {\em Global and Planetary Change}, 209:103752.
+
+\bibitem[Gelaro et~al., 2017]{gelaro2017modern}
+Gelaro, R., McCarty, W., Su{\'a}rez, M.~J., Todling, R., Molod, A., Takacs, L.,
+  Randles, C.~A., Darmenov, A., Bosilovich, M.~G., Reichle, R., et~al. (2017).
+\newblock The modern-era retrospective analysis for research and applications,
+  version 2 (merra-2).
+\newblock {\em Journal of climate}, 30(14):5419--5454.
 
 \bibitem[Graham et~al., 2019]{graham2019improved}
 Graham, R.~M., Hudson, S.~R., and Maturilli, M. (2019).
@@ -41,6 +54,13 @@ Hillebrand, F.~L., Bremer, U.~F., Arigony-Neto, J., da~Rosa, C.~N., Mendes~Jr,
   at the north antarctic peninsula region.
 \newblock {\em Annals of the American Association of Geographers},
   111(4):1147--1159.
+
+\bibitem[Knutson et~al., 2006]{knutson2006assessment}
+Knutson, T.~R., Delworth, T., Dixon, K., Held, I., Lu, J., Ramaswamy, V.,
+  Schwarzkopf, M., Stenchikov, G., and Stouffer, R. (2006).
+\newblock Assessment of twentieth-century regional surface temperature trends
+  using the gfdl cm2 coupled models.
+\newblock {\em Journal of Climate}, 19(9):1624--1651.
 
 \bibitem[Loeb et~al., 2022]{loeb2022extreme}
 Loeb, N.~A., Crawford, A., Stroeve, J.~C., and Hanesiak, J. (2022).
