@@ -1,0 +1,12 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {section}{\numberline {2}Why we use reanalysis}{1}{section.2}%
+\contentsline {section}{\numberline {3}Reanalysis products available in the Arctic}{2}{section.3}%
+\contentsline {section}{\numberline {4}An introduction to ERA5}{2}{section.4}%
+\contentsline {section}{\numberline {5}An evaluation of ERA-5}{3}{section.5}%
+\contentsline {section}{\numberline {6}Variables and limitations}{3}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Precipitation}{3}{subsection.6.1}%
+\contentsline {section}{\numberline {7}ERA5 trace precipitation}{3}{section.7}%
+\contentsline {section}{\numberline {8}Regional differences}{3}{section.8}%
+\contentsline {section}{\numberline {9}Knowledge gaps}{4}{section.9}%
+\contentsline {section}{\numberline {10}Conclusion}{4}{section.10}%

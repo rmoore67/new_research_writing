@@ -47,6 +47,14 @@ Davy, R., Chen, L., and Hanna, E. (2018).
 \newblock Arctic amplification metrics.
 \newblock {\em International Journal of Climatology}, 38(12):4384--4394.
 
+\bibitem[Ding et~al., 2019]{ding2019fingerprints}
+Ding, Q., Schweiger, A., L’Heureux, M., Steig, E.~J., Battisti, D.~S.,
+  Johnson, N.~C., Blanchard-Wrigglesworth, E., Po-Chedley, S., Zhang, Q.,
+  Harnos, K., et~al. (2019).
+\newblock Fingerprints of internal drivers of arctic sea ice loss in
+  observations and model simulations.
+\newblock {\em Nature Geoscience}, 12(1):28--33.
+
 \bibitem[Druckenmiller et~al., 2022]{druckenmiller2022arctic}
 Druckenmiller, M.~L., Thoman, R., and Moon, T. (2022).
 \newblock Arctic report card 2022.
@@ -74,6 +82,13 @@ Ford, V.~L. and Frauenfeld, O.~W. (2022).
 \newblock Arctic precipitation recycling and hydrologic budget changes in
   response to sea ice loss.
 \newblock {\em Global and Planetary Change}, 209:103752.
+
+\bibitem[Ghatak and Miller, 2013]{Ghatak2013}
+Ghatak, D. and Miller, J. (2013).
+\newblock Implications for arctic amplification of changes in the strength of
+  the water vapor feedback.
+\newblock {\em Journal of Geophysical Research: Atmospheres},
+  118(14):7569--7578.
 
 \bibitem[Gimeno et~al., 2019]{gimeno2019atmospheric}
 Gimeno, L., V{\'a}zquez, M., Eiras-Barca, J., Sor{\'\i}, R., Algarra, I., and
@@ -105,16 +120,23 @@ McGraw, M.~C., Baggett, C.~F., Liu, C., and Mundhenk, B.~D. (2020).
   associated with sea ice loss.
 \newblock {\em Climate Dynamics}, 54:491--506.
 
-\bibitem[Meredith, 2019]{ipcc}
-Meredith, Sommerkorn, C. (2019).
-\newblock Polar regions. in: Ipcc special report on the ocean and cryosphere in
-  a changing climate.
-\newblock {\em IPCC}.
+\bibitem[Miller et~al., 2010]{miller2010arctic}
+Miller, G.~H., Alley, R.~B., Brigham-Grette, J., Fitzpatrick, J.~J., Polyak,
+  L., Serreze, M.~C., and White, J.~W. (2010).
+\newblock Arctic amplification: can the past constrain the future?
+\newblock {\em Quaternary Science Reviews}, 29(15-16):1779--1790.
 
 \bibitem[Notz and Stroeve, 2018]{notz2018trajectory}
 Notz, D. and Stroeve, J. (2018).
 \newblock The trajectory towards a seasonally ice-free arctic ocean.
 \newblock {\em Current Climate Change Reports}, 4:407--416.
+
+\bibitem[NSIDC, 2023]{boulder}
+NSIDC (2023).
+\newblock Arctic weather and climate.
+\newblock
+  \url{https://nsidc.org/learn/parts-cryosphere/arctic-weather-and-climate#:~:text=Some%20scientists%20define%20the%20Arctic,C%20(50%20%C2%B0F)}.
+\newblock Accessed: 2023-04-11.
 
 \bibitem[Oshima and Yamazaki, 2017]{oshima2017atmospheric}
 Oshima, K. and Yamazaki, K. (2017).
@@ -165,10 +187,24 @@ Serreze, M.~C., Barrett, A.~P., Slater, A.~G., Woodgate, R.~A., Aagaard, K.,
 \newblock The large-scale freshwater cycle of the arctic.
 \newblock {\em Journal of Geophysical Research: Oceans}, 111(C11).
 
+\bibitem[Serreze et~al., 2012]{serreze2012recent}
+Serreze, M.~C., Barrett, A.~P., and Stroeve, J. (2012).
+\newblock Recent changes in tropospheric water vapor over the arctic as
+  assessed from radiosondes and atmospheric reanalyses.
+\newblock {\em Journal of Geophysical Research: Atmospheres}, 117(D10).
+
 \bibitem[Serreze and Barry, 2011]{serreze2011processes}
 Serreze, M.~C. and Barry, R.~G. (2011).
 \newblock Processes and impacts of arctic amplification: A research synthesis.
 \newblock {\em Global and planetary change}, 77(1-2):85--96.
+
+\bibitem[Serreze et~al., 2021]{serreze2021arctic}
+Serreze, M.~C., Gustafson, J., Barrett, A.~P., Druckenmiller, M.~L., Fox, S.,
+  Voveris, J., Stroeve, J., Sheffield, B., Forbes, B.~C., Rasmus, S., et~al.
+  (2021).
+\newblock Arctic rain on snow events: bridging observations to understand
+  environmental and livelihood impacts.
+\newblock {\em Environmental research letters}, 16(10):105009.
 
 \bibitem[Skliris et~al., 2016]{Skliris2016}
 Skliris, N., Zika, J.~D., Nurser, G., Josey, S.~A., and Marsh, R. (2016).

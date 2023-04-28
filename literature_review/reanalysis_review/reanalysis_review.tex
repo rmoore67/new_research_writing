@@ -1,72 +1,138 @@
-\documentclass[11pt, oneside]{article}   
+\documentclass[12pt, oneside]{article} 
+\usepackage{booktabs}
 \usepackage{geometry}              	
 \usepackage{adjustbox}
-\usepackage{pdfpages}  	
-\usepackage[nottoc]{tocbibind}
+\usepackage{pdfpages}  		
 \usepackage{graphicx}
 \usepackage{caption}						
 \usepackage{amssymb}
-\usepackage{booktabs} % To thicken table lines
 \usepackage{amsmath}
 \usepackage{pdfpages} 
 \usepackage{longtable}
 \usepackage{subfig}
 \usepackage{url}
+\usepackage{comment}
+
+%\usepackage{subcaption}
+\usepackage{graphicx}  % remove 'demo' option for your real document
+
+\usepackage{fancyvrb}
 \usepackage{hyperref}
 \hypersetup{colorlinks,linkcolor={blue},citecolor={blue},urlcolor={red}}  
 \usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{blindtext}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{multirow}
+%\usepackage[dvipsnames]{xcolor}
+\usepackage{pdflscape}
+\usepackage{subfig}
+\setcounter{tocdepth}{6}
+\setcounter{secnumdepth}{6}
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+
+ \setlength{\headheight}{14.5pt}
+\lhead{}
+ 
 \usepackage[english]{babel}
 \usepackage[utf8]{inputenc}
+
+\geometry{left=2.0cm,right=2.0cm,top=2.0cm,bottom=2.0cm}
+%using the euro symbol
+\usepackage[utf8]{inputenc}
+\usepackage{marvosym}
+\DeclareUnicodeCharacter{20AC}{\EUR{}}
+%\usepackage[dvipsnames]{xcolor}
+\usepackage{array,tabularx,calc}
+%to allow use of < and >
+\usepackage[T1]{fontenc}
+%references
+\usepackage{csquotes}
+%\usepackage[style=nature]{biblatex}
+%\addbibresource{references.bib}
+\newlength{\conditionwd}
+\newenvironment{conditions}[1][where:]
+  {%
+   #1\tabularx{\textwidth-\widthof{#1}}[t]{
+     >{$}l<{$} @{${}={}$} X@{}
+   }%
+  }
+  {\endtabularx\\[\belowdisplayskip]}
+
+\usepackage{array,tabularx}
+
+\newcommand{\HRule}[1]{\rule{\linewidth}{#1}} 	% Horizontal rule
+
+\makeatletter							% Title
+\def\printtitle{%						
+    {\centering \@title\par}}
+\makeatother
+									
+
+\makeatletter							% Author
+\def\printauthor{%					
+    {\centering \large \@author}}				
+\makeatother	
+
+\usepackage{mathtools} 
+
 \usepackage[font=small,labelfont=bf]{caption}
 
-\title{EOSC 595: Directed study, Arctic Climate change - A review on the usage of ERA5 reanalysis in the Arctic region  }
-\nonstopmode
-%\usepackage[utf-8]{inputenc}
-\usepackage{graphicx} % Required for including pictures
-\usepackage[figurename=Figure]{caption}
-\usepackage{float}    % For tables and other floats
-\usepackage{verbatim} % For comments and other
-\usepackage{amsmath}  % For math
-\usepackage{amssymb}  % For more math
-\usepackage{fullpage} % Set margins and place page numbers at bottom center
-\usepackage{paralist} % paragraph spacing
-\usepackage{listings} % For source code
-\usepackage{subfig}   % For subfigures
-%\usepackage{physics}  % for simplified dv, and 
-\usepackage{enumitem} % useful for itemization
-\usepackage{siunitx}  % standardization of si units
-% \usepackage{amsmath}
-\usepackage{mathtools}% Loads amsmath
-
-\usepackage{tikz,bm} % Useful for drawing plots
-%\usepackage{tikz-3dplot}
-
-\usepackage{enumitem}
-%\renewcommand{\theenumi}{\Alph{enumi}}
-
-
-\usepackage{csquotes}
-
-
+\begin{document}
 
 %\renewcommand{\labelenumii}{\Arabic{enumii}}
 
 
-\begin{document}
-
-\begin{center}
-	\hrule
-	\vspace{.4cm}
-	{\textbf { \large EOSC 595: Directed study, Arctic Climate change \\ A review on the usage of ERA5 reanalysis in the Arctic region}}
-\end{center}
-{\textbf{Name:}\ Ruth Moore \hspace{\fill} }\textbf{Date:} March 3rd 2022   \\
-	\hrule
 
 
-\hfill
-\hfill
- \hfill
-\hfill
+
+\begin{titlepage}
+    \centering 
+	\scshape
+	\vspace*{2\baselineskip}
+	\rule{\textwidth}{1.6pt}\vspace*{-\baselineskip}\vspace*{2pt} 
+	\rule{\textwidth}{0.4pt} 
+	\vspace{0.75\baselineskip} 
+	{\Huge EOSC595 \\ Directed Study in Polar Climate} \\
+	\vspace{0.1in}
+		{\Large Literature Review} \\
+		\vspace{0.1in}
+		{\Large Ruth Moore} \\
+	\vspace{0.75\baselineskip} 
+	\rule{\textwidth}{0.4pt}\vspace*{-\baselineskip}\vspace*{2pt} 
+		\rule{\textwidth}{1.6pt}
+	\vspace*{2\baselineskip} 
+
+\Huge{A review on the usage of ERA5 reanalysis in the Arctic region}
+\vspace{0.1in}	
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[width=0.5\textwidth]{../ubc-logo-png-transparent.png}
+\end{figure}
+{\Large Spring 2023- } \\
+	{\large University of British Columbia} 
+\end{titlepage}
+\pagestyle{fancy}
+
+
+{
+  \hypersetup{linkcolor=black}
+  \tableofcontents
+}
+
+
+\thispagestyle{empty}
+\clearpage
+\setcounter{page}{1}
+
+
+\pagebreak
+
+
 
 \section{Introduction}
 
@@ -114,12 +180,8 @@ When comparing different products use a figure which looks like this
     \caption{from \cite{previdi2021arctic} }
     \label{f:previdi2021arctic}
 \end{figure}
-\section{An evaluation of ERA-5}
-WHY IS ERA5 good?
 
-How have other studies compared ERA5 and what have they said?
 
-There are a number of different reanalysis datasets available for study in the Arctic. 
 
 
 \section{An introduction to ERA5}
@@ -129,6 +191,17 @@ ERA5 grid cells are 0.25° x 0.25°, which roughly corresponds to 31km x 31km, w
 ERA-5 was chosen specifically for this review as it is the most reliable global reanalysis for the Arctic right now. It has the highest correlation coefficients compared with experimental weather data, smallest biases and root-mean-square errors when compared with other reanalysis datasets \cite{graham2019improved, hillebrand2021comparison}. 
 
 For most studies within the Arctic, only the satellite era is used for analysis, giving 44 years of output (1979-2023).
+
+
+
+
+\section{An evaluation of ERA-5}
+WHY IS ERA5 good?
+
+How have other studies compared ERA5 and what have they said?
+
+There are a number of different reanalysis datasets available for study in the Arctic. 
+
 
 
 \section{Variables and limitations}\label{Hydrological variables and limitations }
