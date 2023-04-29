@@ -1,0 +1,4 @@
+{"rule":"A_FEEDBACK","sentence":"^\\QMelting permafrost results in an increase of carbon into the atmosphere, resulting in it being a positive feedback as the globe warms.\\E$"}
+{"rule":"A_FEEDBACK","sentence":"^\\QThis allows for stronger heat transfer from the ocean to the atmosphere and acts as a positive feedback.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QPolynyas are areas of open water surrounded by sea ice.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Q\\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q showed that inter-decadal variability in snow depth has been linked to changes in magnitude and frequency of cyclones and their accompanying circulation.\\E$"}

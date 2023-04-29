@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex arctic_warming_review"] 1682652274 "arctic_warming_review.aux" "arctic_warming_review.bbl" "arctic_warming_review" 1682652276
-  "../mybib.bib" 1682652270 23482 167fafe79b223e0b43bbb0a156607269 ""
+["bibtex arctic_warming_review"] 1682704485 "arctic_warming_review.aux" "arctic_warming_review.bbl" "arctic_warming_review" 1682704663
+  "../mybib.bib" 1682703916 28312 8b8511e8f56c6106fd9d551d767a89dd ""
   "/usr/local/texlive/2022/texmf-dist/bibtex/bst/base/apalike.bst" 1292289607 24635 604dafcc79f521a11ea73e506e1fbd98 ""
-  "arctic_warming_review.aux" 1682652275 12340 8c5b00cc94a43e93937a68e40409d66a "pdflatex"
+  "arctic_warming_review.aux" 1682704663 14865 4200ee816a0b4e29b823616e5b9635ce "pdflatex"
   (generated)
   "arctic_warming_review.bbl"
   "arctic_warming_review.blg"
-["pdflatex"] 1682652274 "/Users/rmoore/research_writing_3/literature_review/arctic_warming_review/arctic_warming_review.tex" "arctic_warming_review.pdf" "arctic_warming_review" 1682652276
+["pdflatex"] 1682704661 "/Users/rmoore/research_writing_3/literature_review/arctic_warming_review/arctic_warming_review.tex" "arctic_warming_review.pdf" "arctic_warming_review" 1682704663
   "../ubc-logo-png-transparent.png" 1682636979 209308 d4f0a590a69b00bccfeda871383f06f5 ""
-  "/Users/rmoore/research_writing_3/literature_review/arctic_warming_review/arctic_warming_review.tex" 1682652270 36283 95507a798bfc58571797db314cbbfc37 ""
+  "/Users/rmoore/research_writing_3/literature_review/arctic_warming_review/arctic_warming_review.tex" 1682704661 46725 5fa92a83f8b38e40d3d8bcc8bfa00756 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -150,6 +150,12 @@
   "/usr/local/texlive/2022/texmf-dist/tex/latex/marvosym/marvosym.sty" 1333989323 9393 ceaf2ea8eb2c81fdb168323fc5fffc89 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/mathtools/mathtools.sty" 1644270001 59398 061078e853e620354ba0437103cbd0fe ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/mathtools/mhsetup.sty" 1616101747 5582 a43dedf8e5ec418356f1e9dfe5d29fc3 ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/microtype-pdftex.def" 1647374306 48187 dc49d7ea7b8a3fa75e04c799929703b9 ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/microtype.cfg" 1647374306 26646 da004eb274e0158774539ced5cafcb54 ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/microtype.sty" 1647374306 90503 376660e75505e801f0c4fd36fb88b54c ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/mt-cmr.cfg" 1645649607 22906 391012403cdd24e0eff9edb7797213df ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/mt-msa.cfg" 1645649607 5929 c3d8b4090f819eea493a446d04c35664 ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/mt-msb.cfg" 1645649607 5594 c9a8b7ef6240cf465b2480ea05ec0128 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/multirow/multirow.sty" 1615845910 6149 2398eec4faa1ee24ff761581e580ecf1 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/pdflscape/pdflscape.sty" 1575674318 6575 25396d208d8f2b9395d06ef315d5886c ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/pdfpages/pdfpages.sty" 1643492961 54508 3fd4fcb0ce463ba481db9f80ae95dad2 ""
@@ -171,11 +177,11 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1668127430 2826449 b638a3fd44cad6f526fc5b806b65b09f ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "arctic_warming_review.aux" 1682652275 12340 8c5b00cc94a43e93937a68e40409d66a "pdflatex"
-  "arctic_warming_review.bbl" 1682652274 10120 853d87610a1e9b048c2fb6b1be44c7c9 "bibtex arctic_warming_review"
-  "arctic_warming_review.out" 1682652275 9655 834c9ef84c10c4e3f69be72fc1b04c45 "pdflatex"
-  "arctic_warming_review.tex" 1682652270 36283 95507a798bfc58571797db314cbbfc37 ""
-  "arctic_warming_review.toc" 1682652275 4858 1171f18720b462ae4da29205405612fa "pdflatex"
+  "arctic_warming_review.aux" 1682704663 14865 4200ee816a0b4e29b823616e5b9635ce "pdflatex"
+  "arctic_warming_review.bbl" 1682704485 14681 b4794e0545e66d8b1c885f4c83885dfb "bibtex arctic_warming_review"
+  "arctic_warming_review.out" 1682704663 9501 07763cd6c633c39c91d30756d4c9d6b2 "pdflatex"
+  "arctic_warming_review.tex" 1682704661 46725 5fa92a83f8b38e40d3d8bcc8bfa00756 ""
+  "arctic_warming_review.toc" 1682704663 4833 b6d8a8bf300750d8576f94ed4fdaa86b "pdflatex"
   "hydological_cycle.png" 1682558070 662058 e6fa1b3dc1f02770eb68a8511feecf94 ""
   (generated)
   "arctic_warming_review.aux"

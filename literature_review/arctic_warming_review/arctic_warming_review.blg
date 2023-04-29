@@ -3,44 +3,44 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: arctic_warming_review.aux
 The style file: apalike.bst
 Database file #1: ../mybib.bib
-You've used 36 entries,
+You've used 52 entries,
             1935 wiz_defined-function locations,
-            702 strings with 11670 characters,
-and the built_in function-call counts, 17027 in all, are:
-= -- 1598
-> -- 969
-< -- 14
-+ -- 358
-- -- 344
-* -- 1637
-:= -- 3009
-add.period$ -- 110
-call.type$ -- 36
-change.case$ -- 346
-chr.to.int$ -- 36
-cite$ -- 36
-duplicate$ -- 510
-empty$ -- 1040
-format.name$ -- 402
-if$ -- 3213
-int.to.chr$ -- 1
+            778 strings with 15102 characters,
+and the built_in function-call counts, 24529 in all, are:
+= -- 2286
+> -- 1445
+< -- 18
++ -- 537
+- -- 516
+* -- 2358
+:= -- 4364
+add.period$ -- 159
+call.type$ -- 52
+change.case$ -- 508
+chr.to.int$ -- 51
+cite$ -- 52
+duplicate$ -- 727
+empty$ -- 1465
+format.name$ -- 594
+if$ -- 4604
+int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 35
-newline$ -- 184
-num.names$ -- 110
-pop$ -- 267
+missing$ -- 51
+newline$ -- 265
+num.names$ -- 158
+pop$ -- 402
 preamble$ -- 1
-purify$ -- 346
+purify$ -- 509
 quote$ -- 0
-skip$ -- 391
+skip$ -- 555
 stack$ -- 0
-substring$ -- 1177
-swap$ -- 44
+substring$ -- 1628
+swap$ -- 59
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 216
+type$ -- 310
 warning$ -- 0
-while$ -- 125
+while$ -- 175
 width$ -- 0
-write$ -- 471
+write$ -- 677

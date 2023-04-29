@@ -6,7 +6,7 @@
 \contentsline {section}{\numberline {5}An evaluation of ERA-5}{3}{section.5}%
 \contentsline {section}{\numberline {6}Variables and limitations}{3}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Precipitation}{3}{subsection.6.1}%
-\contentsline {section}{\numberline {7}ERA5 trace precipitation}{3}{section.7}%
-\contentsline {section}{\numberline {8}Regional differences}{3}{section.8}%
-\contentsline {section}{\numberline {9}Knowledge gaps}{4}{section.9}%
-\contentsline {section}{\numberline {10}Conclusion}{4}{section.10}%
+\contentsline {subsubsection}{\numberline {6.1.1}ERA5 trace precipitation}{3}{subsubsection.6.1.1}%
+\contentsline {section}{\numberline {7}Regional differences}{3}{section.7}%
+\contentsline {section}{\numberline {8}Knowledge gaps}{4}{section.8}%
+\contentsline {section}{\numberline {9}Conclusion}{4}{section.9}%

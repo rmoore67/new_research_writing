@@ -1,10 +1,24 @@
 \begin{thebibliography}{}
 
+\bibitem[Ali and Pithan, 2020]{ali2020following}
+Ali, S.~M. and Pithan, F. (2020).
+\newblock Following moist intrusions into the arctic using sheba observations
+  in a lagrangian perspective.
+\newblock {\em Quarterly Journal of the Royal Meteorological Society},
+  146(732):3522--3533.
+
 \bibitem[AMAP, 2021]{AMAP}
 AMAP (2021).
 \newblock Arctic climate change update 2021: Key trends and impacts. summary
   for policy-makers.
 \newblock {\em Arctic Monitoring and Assessment Programme}, 29(14):16.
+
+\bibitem[Ananicheva et~al., 2011]{ananicheva2011snow}
+Ananicheva, M., Callaghan, T., Dahl-Jensen, D., Gerland, S., Granskog, M.,
+  Hovelsrud, G., Johansson, M., Key, J., Meier, W., Olsen, M., et~al. (2011).
+\newblock {\em Snow, water, ice and permafrost in the Arctic (SWIPA): climate
+  change and the cryosphere}.
+\newblock Arctic Monitoring and Assessment Programme (AMAP).
 
 \bibitem[Andreas et~al., 2002]{andreas2002near}
 Andreas, E.~L., Guest, P.~S., Persson, P. O.~G., Fairall, C.~W., Horst, T.~W.,
@@ -23,6 +37,20 @@ Bintanja, R. and Selten, F. (2014).
 Bintanja, R. and Van~der Linden, E. (2013).
 \newblock The changing seasonal climate in the arctic.
 \newblock {\em Scientific reports}, 3(1):1--8.
+
+\bibitem[Bring et~al., 2016]{bring2016arctic}
+Bring, A., Fedorova, I., Dibike, Y., Hinzman, L., M{\aa}rd, J., Mernild, S.,
+  Prowse, T., Semenova, O., Stuefer, S.~L., and Woo, M.-K. (2016).
+\newblock Arctic terrestrial hydrology: A synthesis of processes, regional
+  effects, and research challenges.
+\newblock {\em Journal of Geophysical Research: Biogeosciences},
+  121(3):621--649.
+
+\bibitem[Brown et~al., 2010]{brown2010multi}
+Brown, R., Derksen, C., and Wang, L. (2010).
+\newblock A multi-data set analysis of variability and change in arctic spring
+  snow cover extent, 1967--2008.
+\newblock {\em Journal of Geophysical Research: Atmospheres}, 115(D16).
 
 \bibitem[Chakravarty and Kumar, 2019]{CHAKRAVARTY2019203}
 Chakravarty, P. and Kumar, M. (2019).
@@ -54,6 +82,19 @@ Ding, Q., Schweiger, A., L’Heureux, M., Steig, E.~J., Battisti, D.~S.,
 \newblock Fingerprints of internal drivers of arctic sea ice loss in
   observations and model simulations.
 \newblock {\em Nature Geoscience}, 12(1):28--33.
+
+\bibitem[Dou et~al., 2022]{dou2022more}
+Dou, T., Pan, S., Bintanja, R., and Xiao, C. (2022).
+\newblock More frequent, intense, and extensive rainfall events in a strongly
+  warming arctic.
+\newblock {\em Earth's Future}, 10(10):e2021EF002378.
+
+\bibitem[Dou et~al., 2021]{dou2021trends}
+Dou, T., Xiao, C., Liu, J., Wang, Q., Pan, S., Su, J., Yuan, X., Ding, M.,
+  Zhang, F., Xue, K., et~al. (2021).
+\newblock Trends and spatial variation in rain-on-snow events over the arctic
+  ocean during the early melt season.
+\newblock {\em The Cryosphere}, 15(2):883--895.
 
 \bibitem[Druckenmiller et~al., 2022]{druckenmiller2022arctic}
 Druckenmiller, M.~L., Thoman, R., and Moon, T. (2022).
@@ -96,16 +137,44 @@ Gimeno, L., V{\'a}zquez, M., Eiras-Barca, J., Sor{\'\i}, R., Algarra, I., and
 \newblock Atmospheric moisture transport and the decline in arctic sea ice.
 \newblock {\em Wiley Interdisciplinary Reviews: Climate Change}, 10(4):e588.
 
+\bibitem[Goosse et~al., 2018]{Goosse2018}
+Goosse, H., Kay, J.~E., Armour, K.~C., Bodas-Salcedo, A., Chepfer, H.,
+  Docquier, D., Jonko, A., Kushner, P.~J., Lecomte, O., Massonnet, F., et~al.
+  (2018).
+\newblock Quantifying climate feedbacks in polar regions.
+\newblock {\em Nature communications}, 9(1):1--13.
+
 \bibitem[Haine et~al., 2015]{haine2015arctic}
 Haine, T.~W., Curry, B., Gerdes, R., Hansen, E., Karcher, M., Lee, C., Rudels,
   B., Spreen, G., de~Steur, L., Stewart, K.~D., et~al. (2015).
 \newblock Arctic freshwater export: Status, mechanisms, and prospects.
 \newblock {\em Global and Planetary Change}, 125:13--35.
 
+\bibitem[Harrington et~al., 2021]{harrington2021terrestrial}
+Harrington, T.~S., Zhu, J., and Skinner, C.~B. (2021).
+\newblock Terrestrial sources of summer arctic moisture and the implication for
+  arctic temperature patterns.
+\newblock {\em npj Climate and Atmospheric Science}, 4(1):25.
+
 \bibitem[Held and Soden, 2006]{held2006robust}
 Held, I.~M. and Soden, B.~J. (2006).
 \newblock Robust responses of the hydrological cycle to global warming.
 \newblock {\em Journal of climate}, 19(21):5686--5699.
+
+\bibitem[Instanes et~al., 2016]{instanes2016changes}
+Instanes, A., Kokorev, V., Janowicz, R., Bruland, O., Sand, K., and Prowse, T.
+  (2016).
+\newblock Changes to freshwater systems affecting arctic infrastructure and
+  natural resources.
+\newblock {\em Journal of Geophysical Research: Biogeosciences},
+  121(3):567--585.
+
+\bibitem[Jackson et~al., 2015]{jackson2015global}
+Jackson, L., Kahana, R., Graham, T., Ringer, M., Woollings, T., Mecking, J.,
+  and Wood, R. (2015).
+\newblock Global and european climate impacts of a slowdown of the amoc in a
+  high resolution gcm.
+\newblock {\em Climate dynamics}, 45:3299--3316.
 
 \bibitem[McCrystall et~al., 2021]{mccrystall2021new}
 McCrystall, M.~R., Stroeve, J., Serreze, M., Forbes, B.~C., and Screen, J.~A.
@@ -131,18 +200,31 @@ Notz, D. and Stroeve, J. (2018).
 \newblock The trajectory towards a seasonally ice-free arctic ocean.
 \newblock {\em Current Climate Change Reports}, 4:407--416.
 
-\bibitem[NSIDC, 2023]{boulder}
-NSIDC (2023).
+\bibitem[NSIDC, 2023a]{boulder}
+NSIDC (2023a).
 \newblock Arctic weather and climate.
 \newblock
   \url{https://nsidc.org/learn/parts-cryosphere/arctic-weather-and-climate#:~:text=Some%20scientists%20define%20the%20Arctic,C%20(50%20%C2%B0F)}.
 \newblock Accessed: 2023-04-11.
+
+\bibitem[NSIDC, 2023b]{permafrost}
+NSIDC (2023b).
+\newblock Frozen ground and permafrost.
+\newblock
+  \url{https://nsidc.org/learn/parts-cryosphere/frozen-ground-permafrost}.
+\newblock Accessed: 2023-04-13.
 
 \bibitem[Oshima and Yamazaki, 2017]{oshima2017atmospheric}
 Oshima, K. and Yamazaki, K. (2017).
 \newblock Atmospheric hydrological cycles in the arctic and antarctic during
   the past four decades.
 \newblock {\em Czech Polar Reports}, 7(2):169--180.
+
+\bibitem[Parker et~al., 2022]{parker2022influence}
+Parker, C.~L., Mooney, P.~A., Webster, M.~A., and Boisvert, L.~N. (2022).
+\newblock The influence of recent and future climate change on spring arctic
+  cyclones.
+\newblock {\em Nature Communications}, 13(1):6514.
 
 \bibitem[Pithan et~al., 2014]{pithan2014mixed}
 Pithan, F., Medeiros, B., and Mauritsen, T. (2014).
@@ -206,11 +288,24 @@ Serreze, M.~C., Gustafson, J., Barrett, A.~P., Druckenmiller, M.~L., Fox, S.,
   environmental and livelihood impacts.
 \newblock {\em Environmental research letters}, 16(10):105009.
 
+\bibitem[Serreze et~al., 2022]{serreze2022characteristics}
+Serreze, M.~C., Voveris, J., Barrett, A.~P., Fox, S., Blanken, P.~D., and
+  Crawford, A. (2022).
+\newblock Characteristics of extreme daily precipitation events over the
+  canadian arctic.
+\newblock {\em International Journal of Climatology}.
+
 \bibitem[Skliris et~al., 2016]{Skliris2016}
 Skliris, N., Zika, J.~D., Nurser, G., Josey, S.~A., and Marsh, R. (2016).
 \newblock Global water cycle amplifying at less than the clausius-clapeyron
   rate.
 \newblock {\em Scientific Reports}, 6(1):38752.
+
+\bibitem[Stull, 2015]{stull2015practical}
+Stull, R. (2015).
+\newblock Practical meteorology.
+\newblock {\em An algebra-based survey of atmospheric science. University of
+  British Columbia, Columbia}.
 
 \bibitem[Vihma et~al., 2016]{vihma2016atmospheric}
 Vihma, T., Screen, J., Tjernstr{\"o}m, M., Newton, B., Zhang, X., Popova, V.,
@@ -219,5 +314,16 @@ Vihma, T., Screen, J., Tjernstr{\"o}m, M., Newton, B., Zhang, X., Popova, V.,
   processes, past and future changes, and their impacts.
 \newblock {\em Journal of Geophysical Research: Biogeosciences},
   121(3):586--620.
+
+\bibitem[Webster et~al., 2019]{webster2019role}
+Webster, M.~A., Parker, C., Boisvert, L., and Kwok, R. (2019).
+\newblock The role of cyclone activity in snow accumulation on arctic sea ice.
+\newblock {\em Nature communications}, 10(1):5285.
+
+\bibitem[Yu and Zhong, 2021]{yu2021trends}
+Yu, L. and Zhong, S. (2021).
+\newblock Trends in arctic seasonal and extreme precipitation in recent
+  decades.
+\newblock {\em Theoretical and Applied Climatology}, 145:1541--1559.
 
 \end{thebibliography}

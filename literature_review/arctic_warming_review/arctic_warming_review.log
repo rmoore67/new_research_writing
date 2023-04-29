@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.10)  27 APR 2023 20:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.10)  28 APR 2023 10:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -288,13 +288,38 @@ Package: subfig 2005/06/28 ver: 1.3 subfig package
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write3
- Excluding comment 'comment') (/usr/local/texlive/2022/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+ Excluding comment 'comment') (/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2022/03/14 v3.0d Micro-typographical refinements (RS)
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count301
+)
+\MT@toks=\toks29
+\MT@tempbox=\box61
+\MT@count=\count302
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1027.
+LaTeX Info: Redefining \leftprotrusion on input line 1028.
+LaTeX Info: Redefining \rightprotrusion on input line 1036.
+LaTeX Info: Redefining \textls on input line 1195.
+\MT@outer@kern=\dimen258
+LaTeX Info: Redefining \textmicrotypecontext on input line 1781.
+\MT@listname@count=\count303
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2022/03/14 v3.0d Definitions specific to pdftex (RS)
+LaTeX Info: Redefining \lsstyle on input line 900.
+LaTeX Info: Redefining \lslig on input line 900.
+\MT@outer@space=\skip64
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2022/03/14 v3.0d microtype main configuration file (RS)
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
 Package: fancyvrb 2021/12/21 4.1b verbatim text (tvz,hv)
-\FV@CodeLineNo=\count301
+\FV@CodeLineNo=\count304
 \FV@InFile=\read2
-\FV@TabBox=\box61
-\c@FancyVerbLine=\count302
-\FV@StepNumber=\count303
+\FV@TabBox=\box62
+\c@FancyVerbLine=\count305
+\FV@StepNumber=\count306
 \FV@OutFile=\write4
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
@@ -323,9 +348,9 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
-\@linkdim=\dimen258
-\Hy@linkcounter=\count304
-\Hy@pagecounter=\count305
+\@linkdim=\dimen259
+\Hy@linkcounter=\count307
+\Hy@pagecounter=\count308
  (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -335,7 +360,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 ) (/usr/local/texlive/2022/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count306
+\Hy@SavedSpaceFactor=\count309
  (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -348,17 +373,17 @@ Package hyperref Info: Plain pages OFF on input line 4152.
 Package hyperref Info: Backreferencing OFF on input line 4157.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4390.
-\c@Hy@tempcnt=\count307
+\c@Hy@tempcnt=\count310
 LaTeX Info: Redefining \url on input line 4749.
-\XeTeXLinkMargin=\dimen259
+\XeTeXLinkMargin=\dimen260
  (/usr/local/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (/usr/local/texlive/2022/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count308
-\Field@Width=\dimen260
-\Fld@charsize=\dimen261
+\Fld@menulength=\count311
+\Field@Width=\dimen261
+\Fld@charsize=\dimen262
 Package hyperref Info: Hyper figures OFF on input line 6027.
 Package hyperref Info: Link nesting OFF on input line 6032.
 Package hyperref Info: Hyper index ON on input line 6035.
@@ -372,9 +397,9 @@ LaTeX Info: Redefining \pageref on input line 6101.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count309
-\c@Item=\count310
-\c@Hfootnote=\count311
+\Hy@abspage=\count312
+\c@Item=\count313
+\c@Hfootnote=\count314
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hpdftex.def
@@ -383,8 +408,8 @@ File: hpdftex.def 2022-02-21 v7.00n Hyperref driver for pdfTeX
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
-\Fld@listcount=\count312
-\c@bookmark@seq@number=\count313
+\Fld@listcount=\count315
+\c@bookmark@seq@number=\count316
  (/usr/local/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
  (/usr/local/texlive/2022/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
@@ -392,60 +417,60 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
 )
-\Hy@SectionHShift=\skip64
+\Hy@SectionHShift=\skip65
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 21.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
-\ttl@box=\box62
-\beforetitleunit=\skip65
-\aftertitleunit=\skip66
-\ttl@plus=\dimen262
-\ttl@minus=\dimen263
-\ttl@toksa=\toks29
-\titlewidth=\dimen264
-\titlewidthlast=\dimen265
-\titlewidthfirst=\dimen266
+\ttl@box=\box63
+\beforetitleunit=\skip66
+\aftertitleunit=\skip67
+\ttl@plus=\dimen263
+\ttl@minus=\dimen264
+\ttl@toksa=\toks30
+\titlewidth=\dimen265
+\titlewidthlast=\dimen266
+\titlewidthfirst=\dimen267
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footers
-\f@nch@headwidth=\skip67
-\f@nch@O@elh=\skip68
-\f@nch@O@erh=\skip69
-\f@nch@O@olh=\skip70
-\f@nch@O@orh=\skip71
-\f@nch@O@elf=\skip72
-\f@nch@O@erf=\skip73
-\f@nch@O@olf=\skip74
-\f@nch@O@orf=\skip75
+\f@nch@headwidth=\skip68
+\f@nch@O@elh=\skip69
+\f@nch@O@erh=\skip70
+\f@nch@O@olh=\skip71
+\f@nch@O@orh=\skip72
+\f@nch@O@elf=\skip73
+\f@nch@O@erf=\skip74
+\f@nch@O@olf=\skip75
+\f@nch@O@orf=\skip76
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/blindtext/blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
  (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count314
-\c@Blindtext=\count315
-\c@blind@countparstart=\count316
-\blind@countxx=\count317
-\blindtext@numBlindtext=\count318
-\blind@countyy=\count319
-\c@blindlist=\count320
-\c@blindlistlevel=\count321
-\c@blindlist@level=\count322
-\blind@listitem=\count323
-\c@blind@listcount=\count324
-\c@blind@levelcount=\count325
-\blind@mathformula=\count326
-\blind@Mathformula=\count327
-\c@blind@randomcount=\count328
-\c@blind@randommax=\count329
-\c@blind@pangramcount=\count330
-\c@blind@pangrammax=\count331
+\c@blindtext=\count317
+\c@Blindtext=\count318
+\c@blind@countparstart=\count319
+\blind@countxx=\count320
+\blindtext@numBlindtext=\count321
+\blind@countyy=\count322
+\c@blindlist=\count323
+\c@blindlistlevel=\count324
+\c@blindlist@level=\count325
+\blind@listitem=\count326
+\c@blind@listcount=\count327
+\c@blind@levelcount=\count328
+\blind@mathformula=\count329
+\blind@Mathformula=\count330
+\c@blind@randomcount=\count331
+\c@blind@randommax=\count332
+\c@blind@pangramcount=\count333
+\c@blind@pangrammax=\count334
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip76
-\multirow@cntb=\count332
-\multirow@dima=\skip77
-\bigstrutjot=\dimen267
+\multirow@colwidth=\skip77
+\multirow@cntb=\count335
+\multirow@dima=\skip78
+\bigstrutjot=\dimen268
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
  (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/lscape.sty
@@ -454,12 +479,12 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ) (/usr/local/texlive/2022/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2022/02/26 3.73 The Babel package
-\babel@savecnt=\count333
-\U@D=\dimen268
+\babel@savecnt=\count336
+\U@D=\dimen269
 \l@unhyphenated=\language87
  (/usr/local/texlive/2022/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read3
-\bbl@dirlevel=\count334
+\bbl@dirlevel=\count337
  (/usr/local/texlive/2022/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
@@ -470,45 +495,41 @@ Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
 (babel)             (\language21). Reported on input line 108.
 )) (/usr/local/texlive/2022/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks30
-\inpenc@posthook=\toks31
+\inpenc@prehook=\toks31
+\inpenc@posthook=\toks32
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/marvosym/marvosym.sty
 Package: marvosym 2011/07/20 v2.2 Martin Vogel's Symbols font definitions
 )
    defining Unicode char U+20AC (decimal 8364)
  (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/array.sty
 Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
-\col@sep=\dimen269
-\ar@mcellbox=\box63
-\extrarowheight=\dimen270
-\NC@list=\toks32
-\extratabsurround=\skip78
-\backup@length=\skip79
-\ar@cellbox=\box64
+\col@sep=\dimen270
+\ar@mcellbox=\box64
+\extrarowheight=\dimen271
+\NC@list=\toks33
+\extratabsurround=\skip79
+\backup@length=\skip80
+\ar@cellbox=\box65
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
-\TX@col@width=\dimen271
-\TX@old@table=\dimen272
-\TX@old@col=\dimen273
-\TX@target=\dimen274
-\TX@delta=\dimen275
-\TX@cols=\count335
-\TX@ftn=\toks33
+\TX@col@width=\dimen272
+\TX@old@table=\dimen273
+\TX@old@col=\dimen274
+\TX@target=\dimen275
+\TX@delta=\dimen276
+\TX@cols=\count338
+\TX@ftn=\toks34
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
- (/usr/local/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count336
-)
-\csq@reset=\count337
-\csq@gtype=\count338
-\csq@glevel=\count339
-\csq@qlevel=\count340
-\csq@maxlvl=\count341
-\csq@tshold=\count342
-\csq@ltx@everypar=\toks34
+\csq@reset=\count339
+\csq@gtype=\count340
+\csq@glevel=\count341
+\csq@qlevel=\count342
+\csq@maxlvl=\count343
+\csq@tshold=\count344
+\csq@ltx@everypar=\toks35
  (/usr/local/texlive/2022/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2021-02-22 v5.2l csquotes generic definitions (JAW)
 )
@@ -517,23 +538,23 @@ Package csquotes Info: ... configuration file loaded successfully.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/csquotes/csquotes.cfg
 File: csquotes.cfg 
 ))
-\conditionwd=\skip80
+\conditionwd=\skip81
  (/usr/local/texlive/2022/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2022/02/07 v1.28a mathematical typesetting tools
  (/usr/local/texlive/2022/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
-\g_MT_multlinerow_int=\count343
-\l_MT_multwidth_dim=\dimen276
-\origjot=\skip81
-\l_MT_shortvdotswithinadjustabove_dim=\dimen277
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen278
-\l_MT_above_intertext_sep=\dimen279
-\l_MT_below_intertext_sep=\dimen280
-\l_MT_above_shortintertext_sep=\dimen281
-\l_MT_below_shortintertext_sep=\dimen282
-\xmathstrut@box=\box65
-\xmathstrut@dim=\dimen283
+\g_MT_multlinerow_int=\count345
+\l_MT_multwidth_dim=\dimen277
+\origjot=\skip82
+\l_MT_shortvdotswithinadjustabove_dim=\dimen278
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen279
+\l_MT_above_intertext_sep=\dimen280
+\l_MT_below_intertext_sep=\dimen281
+\l_MT_above_shortintertext_sep=\dimen282
+\l_MT_below_shortintertext_sep=\dimen283
+\xmathstrut@box=\box66
+\xmathstrut@dim=\dimen284
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -541,8 +562,8 @@ Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count344
-\l__pdf_internal_box=\box66
+\l__color_backend_stack_int=\count346
+\l__pdf_internal_box=\box67
 ) (./arctic_warming_review.aux)
 \openout1 = `arctic_warming_review.aux'.
 
@@ -601,17 +622,17 @@ LaTeX Font Info:    ... okay on input line 84.
 
 (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count345
-\scratchdimen=\dimen284
-\scratchbox=\box67
-\nofMPsegments=\count346
-\nofMParguments=\count347
-\everyMPshowfont=\toks35
-\MPscratchCnt=\count348
-\MPscratchDim=\dimen285
-\MPnumerator=\count349
-\makeMPintoPDFobject=\count350
-\everyMPtoPDFconversion=\toks36
+\scratchcounter=\count347
+\scratchdimen=\dimen285
+\scratchbox=\box68
+\nofMPsegments=\count348
+\nofMParguments=\count349
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count350
+\MPscratchDim=\dimen286
+\MPnumerator=\count351
+\makeMPintoPDFobject=\count352
+\everyMPtoPDFconversion=\toks37
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -626,6 +647,24 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
+LaTeX Info: Redefining \microtypecontext on input line 84.
+Package microtype Info: Applying patch `item' on input line 84.
+Package microtype Info: Applying patch `toc' on input line 84.
+Package microtype Info: Applying patch `eqnum' on input line 84.
+Package microtype Info: Applying patch `footnote' on input line 84.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 84.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
+)
 Package hyperref Info: Link coloring ON on input line 84.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -634,7 +673,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/local/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count351
+\c@section@level=\count353
 )
 LaTeX Info: Redefining \ref on input line 84.
 LaTeX Info: Redefining \pageref on input line 84.
@@ -654,15 +693,19 @@ Package pdftex.def Info: ../ubc-logo-png-transparent.png  used on input line 114
 LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.43 ...ospheric changes}{10}{subsubsection.6.1.4}
+l.43 ...pitation changes}{11}{subsubsection.6.1.3}
                                                   % [1])
 \tf@toc=\write6
 \openout6 = `arctic_warming_review.toc'.
@@ -671,86 +714,61 @@ l.43 ...ospheric changes}{10}{subsubsection.6.1.4}
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.178 
+l.180 
        [1
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.213 \begin{equation}
-                       [2] [3]
-
-LaTeX Warning: Reference `pamp' on page 4 undefined on input line 269.
-
-
-Overfull \hbox (17.94772pt too wide) in paragraph at lines 273--274
-\T1/cmr/m/n/12 warm-ing be-ing al-most four times stronger than sum-mer warm-ing [[]]. 
- []
-
-[4]
-<hydological_cycle.png, id=361, 2135.98pt x 1878.01625pt>
+l.204 
+       [2] [3] [4] [5]
+<hydological_cycle.png, id=388, 2135.98pt x 1878.01625pt>
 File: hydological_cycle.png Graphic file (type png)
 <use hydological_cycle.png>
-Package pdftex.def Info: hydological_cycle.png  used on input line 312.
+Package pdftex.def Info: hydological_cycle.png  used on input line 325.
 (pdftex.def)             Requested size: 350.33727pt x 308.02531pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[5] [6 <./hydological_cycle.png>] [7] [8]
-Overfull \hbox (11.10446pt too wide) in paragraph at lines 417--418
-\T1/cmr/m/n/12 [[]]. Newer stud-ies es-ti-mate that this change is 4 times the amount [[]].
+ [6 <./hydological_cycle.png>] [7] [8] [9] [10]
+Overfull \hbox (6.61536pt too wide) in paragraph at lines 488--489
+\T1/cmr/m/n/12 (-20) with 2021 and 2022 show-ing sea ice ex-tent well be-low the long term average[[]].
  []
 
-[9]
-Overfull \hbox (10.57306pt too wide) in paragraph at lines 436--437
-\T1/cmr/m/n/12 re-cy-cling is pro-jected to ac-count for 60-64% of pre-cip-i-ta-tion in the Arc-tic [[]]. 
- []
-
-[10]
-Overfull \hbox (31.69136pt too wide) in paragraph at lines 463--464
-[]\T1/cmr/m/n/12 Previous work in-ves-ti-gat-ing Arc-tic am-pli-fi-ca-tion fo-cused en-tirely on sea ice losses [[]].
- []
-
-[11] (./arctic_warming_review.bbl [12]
-Underfull \hbox (badness 1019) in paragraph at lines 75--79
-\T1/cmr/m/n/12 ized cli-mates: The role of ice, mois-ture, and sea-sons.  \T1/cmr/m/it/12 Geo-phys-i-cal Re-search Let-ters\T1/cmr/m/n/12 ,
- []
-
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 138.
-(/usr/local/texlive/2022/texmf-dist/tex/latex/base/t1cmtt.fd
+[11] [12] [13] (./arctic_warming_review.bbl [14] [15]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 207.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-Underfull \hbox (badness 6658) in paragraph at lines 135--140
-[]\T1/cmr/m/n/12 NSIDC (2023).  Arc-tic weather and cli-mate.  [][]$\T1/cmtt/m/n/12 https : / / nsidc . org /
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Underfull \hbox (badness 3590) in paragraph at lines 204--209
+[]\T1/cmr/m/n/12 (+20) NSIDC (2023a).  Arc-tic weather and cli-mate.  [][]$\T1/cmtt/m/n/12 https : / / nsidc . org /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--140
+Underfull \hbox (badness 10000) in paragraph at lines 204--209
 \T1/cmtt/m/n/12 learn / parts-[]cryosphere / arctic-[]weather-[]and-[]climate# : ~ : text = Some % 20scientists %
  []
 
-[13]) [14] (./arctic_warming_review.aux)
-
-LaTeX Warning: There were undefined references.
-
+[16] [17]) [18] (./arctic_warming_review.aux)
 Package rerunfilecheck Info: File `arctic_warming_review.out' has not changed.
-(rerunfilecheck)             Checksum: 834C9EF84C10C4E3F69BE72FC1B04C45;9655.
+(rerunfilecheck)             Checksum: 07763CD6C633C39C91D30756D4C9D6B2;9501.
  ) 
 Here is how much of TeX's memory you used:
- 18352 strings out of 478268
- 296893 string characters out of 5846346
- 626854 words of memory out of 5000000
- 36154 multiletter control sequences out of 15000+600000
- 487261 words of font info for 69 fonts, out of 8000000 for 9000
+ 20272 strings out of 478268
+ 331687 string characters out of 5846346
+ 691558 words of memory out of 5000000
+ 37857 multiletter control sequences out of 15000+600000
+ 493169 words of font info for 156 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,12n,117p,1449b,539s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,12n,117p,1139b,549s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc2488.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on arctic_warming_review.pdf (17 pages, 1085523 bytes).
+Output written on arctic_warming_review.pdf (21 pages, 1107128 bytes).
 PDF statistics:
- 580 PDF objects out of 1000 (max. 8388607)
- 507 compressed objects within 6 object streams
- 109 named destinations out of 1000 (max. 500000)
- 427 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 670 PDF objects out of 1000 (max. 8388607)
+ 593 compressed objects within 6 object streams
+ 129 named destinations out of 1000 (max. 500000)
+ 41899 words of extra memory for PDF output out of 42996 (max. 10000000)
 

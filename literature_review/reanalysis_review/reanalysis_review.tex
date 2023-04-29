@@ -145,12 +145,8 @@ Reanalysis data sets combine weather measurements from the past with up-to-date 
 
 For instance, ERA5, which forms the main body of this review, is often used as a data product when comparing CMIP (Coupled Model Intercomparison Project) model ouputs and other model outputs to 'observations'. In these cases ERA5 is used instead of observational measurements since it is a complete dataset without missing time periods or places. Examples of this include \cite{ford2022arctic} where CMIP and ERA5 are compared to evaluate hydrological changes due to sea ice loss and in \cite{rantanen2022arctic} where ERA5 data shows that the Arctic is seen to have warmed 4 times more than the global average since 1979. 
 
-There are limitations associated with using reanalysis data. 
-
-
-Studies using ERA5 have shown overestimations in both precipitation amount and frequency in the Arctic region (my work) 
- develop this point with more references, 
- and therefore should not blindly be used as a data product without thorough evaluation of its limitations and biases within the Arctic. 
+There are limitations associated with using reanalysis data.Studies using ERA5 have shown overestimations in both precipitation amount and frequency in the Arctic region.
+ Therefore reanalyses output should not blindly be used as a data product without thorough evaluation of its limitations and biases within the Arctic. 
 
 Understanding of these limitations, particularly with precipitation is crucial for work in the Arctic and for global climate evaluation as a whole. To quote Boisvert in \cite{boisvert2018intercomparison}; "[precipitation] is one of the most poorly constrained variables in atmospheric reanalyses". A large section of this review paper will focus on precipitation, since precipitation is one of the most rapidly changing variables in the Arctic as we see a transition from snow to rain, and it is one of the most limited and difficult to use reanalysis products, as will be explained in section \ref{precipitation}. This review will also look at why we use reanalysis, will discuss the major atmospheric reanalysis products available in the Arctic, introducing ERA5 as the most reliable one. Then a discussion on major variables related to the atmospheric hydrological cycle is given, where precipitation and trace precipitation are discussed in depth. Finaly a review on regional differences is given with a discussion on knowledge gaps. 
 
@@ -212,7 +208,7 @@ For specific variables ERA5 is seen to perform well (such as rain on snow events
 %why is precipitation so hard?
 As explained in \cite{boisvert2018intercomparison} Arctic wide precipitation is difficult to measure and therefore accurately reproduce. Arctic precipitation is one of the variables with the most uncertainty in forecasting and global climate projections. 
 
-\section{ERA5 trace precipitation}\label{traceprecip}
+\subsubsection{ERA5 trace precipitation}\label{traceprecip}
 Most observational stations in the Arctic record precipitation to the nearest 0.1mm/day, with any precipitation less than 0.1mm/day being considered trace. This is because amounts less than 0.1mm/day are incredibly difficult to measure using rain gauges \cite[p.~3-50]{meteorological2015manobs}. A large number of trace precipitation values exist in ERA5 precipitation output, which do not exist in observational records \cite{shen2022performance}. This is because reanalysis products are generally oversensitive to microphysical and atmospheric dynamics on a global scale \cite{boisvert2018intercomparison}. 
 
 
